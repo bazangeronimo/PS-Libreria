@@ -1,0 +1,68 @@
+D:\repos\Andreani\WebApplication1\Domain\bin\Debug\net6.0\Domain.deps.json
+D:\repos\Andreani\WebApplication1\Domain\bin\Debug\net6.0\Domain.dll
+D:\repos\Andreani\WebApplication1\Domain\bin\Debug\net6.0\ref\Domain.dll
+D:\repos\Andreani\WebApplication1\Domain\bin\Debug\net6.0\Domain.pdb
+D:\repos\Andreani\WebApplication1\Domain\obj\Debug\net6.0\Domain.csproj.AssemblyReference.cache
+D:\repos\Andreani\WebApplication1\Domain\obj\Debug\net6.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\repos\Andreani\WebApplication1\Domain\obj\Debug\net6.0\Domain.AssemblyInfoInputs.cache
+D:\repos\Andreani\WebApplication1\Domain\obj\Debug\net6.0\Domain.AssemblyInfo.cs
+D:\repos\Andreani\WebApplication1\Domain\obj\Debug\net6.0\Domain.csproj.CoreCompileInputs.cache
+D:\repos\Andreani\WebApplication1\Domain\obj\Debug\net6.0\Domain.dll
+D:\repos\Andreani\WebApplication1\Domain\obj\Debug\net6.0\ref\Domain.dll
+D:\repos\Andreani\WebApplication1\Domain\obj\Debug\net6.0\Domain.pdb
+C:\Users\Bazan\Desktop\TP2 API Rest\WebApplication1\WebApplication1\Domain\bin\Debug\net6.0\Domain.deps.json
+C:\Users\Bazan\Desktop\TP2 API Rest\WebApplication1\WebApplication1\Domain\bin\Debug\net6.0\Domain.dll
+C:\Users\Bazan\Desktop\TP2 API Rest\WebApplication1\WebApplication1\Domain\bin\Debug\net6.0\Domain.pdb
+C:\Users\Bazan\Desktop\TP2 API Rest\WebApplication1\WebApplication1\Domain\obj\Debug\net6.0\Domain.csproj.AssemblyReference.cache
+C:\Users\Bazan\Desktop\TP2 API Rest\WebApplication1\WebApplication1\Domain\obj\Debug\net6.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Bazan\Desktop\TP2 API Rest\WebApplication1\WebApplication1\Domain\obj\Debug\net6.0\Domain.AssemblyInfoInputs.cache
+C:\Users\Bazan\Desktop\TP2 API Rest\WebApplication1\WebApplication1\Domain\obj\Debug\net6.0\Domain.AssemblyInfo.cs
+C:\Users\Bazan\Desktop\TP2 API Rest\WebApplication1\WebApplication1\Domain\obj\Debug\net6.0\Domain.csproj.CoreCompileInputs.cache
+C:\Users\Bazan\Desktop\TP2 API Rest\WebApplication1\WebApplication1\Domain\obj\Debug\net6.0\Domain.dll
+C:\Users\Bazan\Desktop\TP2 API Rest\WebApplication1\WebApplication1\Domain\obj\Debug\net6.0\refint\Domain.dll
+C:\Users\Bazan\Desktop\TP2 API Rest\WebApplication1\WebApplication1\Domain\obj\Debug\net6.0\Domain.pdb
+C:\Users\Bazan\Desktop\TP2 API Rest\WebApplication1\WebApplication1\Domain\obj\Debug\net6.0\ref\Domain.dll
+C:\Users\Bazan\Desktop\TP2 API Rest\WebApplication1\WebApplication1\Domain\bin\Debug\net6.0\Domain.runtimeconfig.json
+C:\Users\Bazan\Desktop\TP2 API Rest\WebApplication1\WebApplication1\Domain\obj\Debug\net6.0\Domain.genruntimeconfig.cache
+C:\Users\Bazan\Downloads\TP2-REST-Bazan_Geronimo\TP2-REST-Bazan_Geronimo\Domain\bin\Debug\net6.0\Domain.deps.json
+C:\Users\Bazan\Downloads\TP2-REST-Bazan_Geronimo\TP2-REST-Bazan_Geronimo\Domain\bin\Debug\net6.0\Domain.runtimeconfig.json
+C:\Users\Bazan\Downloads\TP2-REST-Bazan_Geronimo\TP2-REST-Bazan_Geronimo\Domain\bin\Debug\net6.0\Domain.dll
+C:\Users\Bazan\Downloads\TP2-REST-Bazan_Geronimo\TP2-REST-Bazan_Geronimo\Domain\bin\Debug\net6.0\Domain.pdb
+C:\Users\Bazan\Downloads\TP2-REST-Bazan_Geronimo\TP2-REST-Bazan_Geronimo\Domain\obj\Debug\net6.0\Domain.csproj.AssemblyReference.cache
+C:\Users\Bazan\Downloads\TP2-REST-Bazan_Geronimo\TP2-REST-Bazan_Geronimo\Domain\obj\Debug\net6.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Bazan\Downloads\TP2-REST-Bazan_Geronimo\TP2-REST-Bazan_Geronimo\Domain\obj\Debug\net6.0\Domain.AssemblyInfoInputs.cache
+C:\Users\Bazan\Downloads\TP2-REST-Bazan_Geronimo\TP2-REST-Bazan_Geronimo\Domain\obj\Debug\net6.0\Domain.AssemblyInfo.cs
+C:\Users\Bazan\Downloads\TP2-REST-Bazan_Geronimo\TP2-REST-Bazan_Geronimo\Domain\obj\Debug\net6.0\Domain.csproj.CoreCompileInputs.cache
+C:\Users\Bazan\Downloads\TP2-REST-Bazan_Geronimo\TP2-REST-Bazan_Geronimo\Domain\obj\Debug\net6.0\Domain.dll
+C:\Users\Bazan\Downloads\TP2-REST-Bazan_Geronimo\TP2-REST-Bazan_Geronimo\Domain\obj\Debug\net6.0\refint\Domain.dll
+C:\Users\Bazan\Downloads\TP2-REST-Bazan_Geronimo\TP2-REST-Bazan_Geronimo\Domain\obj\Debug\net6.0\Domain.pdb
+C:\Users\Bazan\Downloads\TP2-REST-Bazan_Geronimo\TP2-REST-Bazan_Geronimo\Domain\obj\Debug\net6.0\Domain.genruntimeconfig.cache
+C:\Users\Bazan\Downloads\TP2-REST-Bazan_Geronimo\TP2-REST-Bazan_Geronimo\Domain\obj\Debug\net6.0\ref\Domain.dll
+C:\Users\Bazan\Downloads\Reentrega-TP3-UI-Bazan_Geronimo\Back-end\Domain\bin\Debug\net6.0\Domain.deps.json
+C:\Users\Bazan\Downloads\Reentrega-TP3-UI-Bazan_Geronimo\Back-end\Domain\bin\Debug\net6.0\Domain.runtimeconfig.json
+C:\Users\Bazan\Downloads\Reentrega-TP3-UI-Bazan_Geronimo\Back-end\Domain\bin\Debug\net6.0\Domain.dll
+C:\Users\Bazan\Downloads\Reentrega-TP3-UI-Bazan_Geronimo\Back-end\Domain\bin\Debug\net6.0\Domain.pdb
+C:\Users\Bazan\Downloads\Reentrega-TP3-UI-Bazan_Geronimo\Back-end\Domain\obj\Debug\net6.0\Domain.csproj.AssemblyReference.cache
+C:\Users\Bazan\Downloads\Reentrega-TP3-UI-Bazan_Geronimo\Back-end\Domain\obj\Debug\net6.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Bazan\Downloads\Reentrega-TP3-UI-Bazan_Geronimo\Back-end\Domain\obj\Debug\net6.0\Domain.AssemblyInfoInputs.cache
+C:\Users\Bazan\Downloads\Reentrega-TP3-UI-Bazan_Geronimo\Back-end\Domain\obj\Debug\net6.0\Domain.AssemblyInfo.cs
+C:\Users\Bazan\Downloads\Reentrega-TP3-UI-Bazan_Geronimo\Back-end\Domain\obj\Debug\net6.0\Domain.csproj.CoreCompileInputs.cache
+C:\Users\Bazan\Downloads\Reentrega-TP3-UI-Bazan_Geronimo\Back-end\Domain\obj\Debug\net6.0\Domain.dll
+C:\Users\Bazan\Downloads\Reentrega-TP3-UI-Bazan_Geronimo\Back-end\Domain\obj\Debug\net6.0\refint\Domain.dll
+C:\Users\Bazan\Downloads\Reentrega-TP3-UI-Bazan_Geronimo\Back-end\Domain\obj\Debug\net6.0\Domain.pdb
+C:\Users\Bazan\Downloads\Reentrega-TP3-UI-Bazan_Geronimo\Back-end\Domain\obj\Debug\net6.0\Domain.genruntimeconfig.cache
+C:\Users\Bazan\Downloads\Reentrega-TP3-UI-Bazan_Geronimo\Back-end\Domain\obj\Debug\net6.0\ref\Domain.dll
+C:\Users\Bazan\Desktop\ULTIMA\Reentrega-TP3-UI-Bazan_Geronimo\Back-end\Domain\bin\Debug\net6.0\Domain.deps.json
+C:\Users\Bazan\Desktop\ULTIMA\Reentrega-TP3-UI-Bazan_Geronimo\Back-end\Domain\bin\Debug\net6.0\Domain.runtimeconfig.json
+C:\Users\Bazan\Desktop\ULTIMA\Reentrega-TP3-UI-Bazan_Geronimo\Back-end\Domain\bin\Debug\net6.0\Domain.dll
+C:\Users\Bazan\Desktop\ULTIMA\Reentrega-TP3-UI-Bazan_Geronimo\Back-end\Domain\bin\Debug\net6.0\Domain.pdb
+C:\Users\Bazan\Desktop\ULTIMA\Reentrega-TP3-UI-Bazan_Geronimo\Back-end\Domain\obj\Debug\net6.0\Domain.csproj.AssemblyReference.cache
+C:\Users\Bazan\Desktop\ULTIMA\Reentrega-TP3-UI-Bazan_Geronimo\Back-end\Domain\obj\Debug\net6.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Bazan\Desktop\ULTIMA\Reentrega-TP3-UI-Bazan_Geronimo\Back-end\Domain\obj\Debug\net6.0\Domain.AssemblyInfoInputs.cache
+C:\Users\Bazan\Desktop\ULTIMA\Reentrega-TP3-UI-Bazan_Geronimo\Back-end\Domain\obj\Debug\net6.0\Domain.AssemblyInfo.cs
+C:\Users\Bazan\Desktop\ULTIMA\Reentrega-TP3-UI-Bazan_Geronimo\Back-end\Domain\obj\Debug\net6.0\Domain.csproj.CoreCompileInputs.cache
+C:\Users\Bazan\Desktop\ULTIMA\Reentrega-TP3-UI-Bazan_Geronimo\Back-end\Domain\obj\Debug\net6.0\Domain.dll
+C:\Users\Bazan\Desktop\ULTIMA\Reentrega-TP3-UI-Bazan_Geronimo\Back-end\Domain\obj\Debug\net6.0\refint\Domain.dll
+C:\Users\Bazan\Desktop\ULTIMA\Reentrega-TP3-UI-Bazan_Geronimo\Back-end\Domain\obj\Debug\net6.0\Domain.pdb
+C:\Users\Bazan\Desktop\ULTIMA\Reentrega-TP3-UI-Bazan_Geronimo\Back-end\Domain\obj\Debug\net6.0\Domain.genruntimeconfig.cache
+C:\Users\Bazan\Desktop\ULTIMA\Reentrega-TP3-UI-Bazan_Geronimo\Back-end\Domain\obj\Debug\net6.0\ref\Domain.dll

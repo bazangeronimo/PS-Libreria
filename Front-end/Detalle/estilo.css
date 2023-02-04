@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+*{
+    margin: 0;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Quicksand', sans-serif;
+    color:#E0E0E0; 
+}
+
+.menu-dashboard {
+    max-width: 100px;
+    min-height: 100vh;
+    background: #003053; 
+    padding: 10px;
+    transition: max-width .3s ease;
+}
+
+.top-menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.top-menu .usuario {
+    display: flex;
+    align-items: center;
+}
+
+.top-menu .usuario img {
+    width: 50px;
+    transition: width .3s ease;
+}
+
+.top-menu .usuario span {
+    font-size: 15px;
+    margin-left: 20px;
+    display: none;
+}
+
+.top-menu .toggle {
+    width: 30px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.top-menu .toggle i {
+    font-size: 25px;
+}
+
+.menu .enlace {
+    width: 100%;
+    padding: 25px 0 15px 17px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.menu .enlace:hover {
+    background: #184463;
+}
+
+.menu .enlace i { 
+    margin-right: 1rem;
+    font-size: 40px;
+}
+
+.menu .enlace span {
+    opacity: 0;
+    transition: opacity .3s ease;
+}
+
+.menu-dashboard.open {
+    max-width: 200px; 
+} 
+
+.menu-dashboard.open .top-menu .usuario span {
+    display: block;
+}
+
+.menu-dashboard.open .menu .enlace {
+    width: auto;
+}
+
+.menu-dashboard.open .menu .enlace {
+    padding: 25px 30px ;
+}
+
+.menu-dashboard.open .menu .enlace span {
+    opacity: 1;
+}
+
+.enlace a:hover{
+    color: white;
+}
+
+.nombre a{
+    padding: 10px;
+    text-decoration: none;
+    color:  #003053;
+}
+
+.nombre .title{
+    padding: 30px;
+}
+
+.nombre
+{
+    width: 100%;
+    text-align: center;
+    background-color: white;
+}
+
+.buscar{
+    background-color: white;
+    color: #184463;
+    width: 20vw;
+    height: 2rem;
+    border: 1px solid #184463;
+    border-radius: 5px;
+    margin-bottom: 0.5rem;
+    display:none;
+}
+
+#buscarAutor{
+    background-color:white;
+    color: black;
+    width: 20vw;
+    height: 2rem;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+#buscarTitulo{
+    background-color:white;
+    color: black;
+    width: 20vw;
+    height: 2rem;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+#buscarISBN{
+    background-color:white;
+    color: black;
+    width: 20vw;
+    height: 2rem;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+
+.card {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+	width: 350px;
+    margin-right: 20px;
+	margin-bottom: 50px;
+	border-radius: 5px;
+	box-shadow: 7px 6px 6px rgb(111, 109, 109);
+    background-color: #184463;
+}
+
+.card:hover{
+	transform: scale(1.05);
+	transition: 0.3s ease-in-out;
+}
+
+#app{
+    padding: 20px;
+	width: 100%;
+	flex-wrap: wrap;
+	display: flex;
+    justify-content: space-around;
+}
+
+a{
+	text-decoration: none;
+	color: white;
+}
+
+.contenedor{
+    display: flex;
+}
+
+.dividir{
+    display: flex;
+    height: 80%;
+}
+
+.imagen{
+    width: 50%;
+    height: 100%;
+}
+
+.imagen img{
+    width: 100%;
+    height: 100%;
+}
+
+.Detalle-Alquiler-Reserva{
+    width: 50%;
+    text-align: center;
+    padding: 8px;
+    line-height: 1rem;
+}
+
+.Detalle-Alquiler-Reserva .titulo{
+    font-weight: 600;
+}
+
+.Detalle-Agotado{
+    width: 50%;
+    text-align: center;
+    padding: 8px;
+    line-height: 1rem;
+}
+
+.Detalle-Agotado .titulo{
+    font-weight: 600;
+}
+
+.buton-card{
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.boton-centro{
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.boton-inicio{
+    text-align: left;
+    justify-content: left;
+    padding: 10px;
+}

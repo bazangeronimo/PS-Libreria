@@ -1,0 +1,400 @@
+D:\repos\Andreani\WebApplication1\WebApplication1\bin\Debug\net6.0\appsettings.Development.json
+D:\repos\Andreani\WebApplication1\WebApplication1\bin\Debug\net6.0\appsettings.json
+D:\repos\Andreani\WebApplication1\WebApplication1\bin\Debug\net6.0\WebApplication1.exe
+D:\repos\Andreani\WebApplication1\WebApplication1\bin\Debug\net6.0\WebApplication1.deps.json
+D:\repos\Andreani\WebApplication1\WebApplication1\bin\Debug\net6.0\WebApplication1.runtimeconfig.json
+D:\repos\Andreani\WebApplication1\WebApplication1\bin\Debug\net6.0\WebApplication1.dll
+D:\repos\Andreani\WebApplication1\WebApplication1\bin\Debug\net6.0\ref\WebApplication1.dll
+D:\repos\Andreani\WebApplication1\WebApplication1\bin\Debug\net6.0\WebApplication1.pdb
+D:\repos\Andreani\WebApplication1\WebApplication1\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+D:\repos\Andreani\WebApplication1\WebApplication1\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+D:\repos\Andreani\WebApplication1\WebApplication1\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\repos\Andreani\WebApplication1\WebApplication1\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\repos\Andreani\WebApplication1\WebApplication1\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\repos\Andreani\WebApplication1\WebApplication1\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+D:\repos\Andreani\WebApplication1\WebApplication1\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+D:\repos\Andreani\WebApplication1\WebApplication1\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\repos\Andreani\WebApplication1\WebApplication1\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+D:\repos\Andreani\WebApplication1\WebApplication1\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+D:\repos\Andreani\WebApplication1\WebApplication1\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\repos\Andreani\WebApplication1\WebApplication1\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+D:\repos\Andreani\WebApplication1\WebApplication1\bin\Debug\net6.0\Microsoft.OpenApi.dll
+D:\repos\Andreani\WebApplication1\WebApplication1\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\repos\Andreani\WebApplication1\WebApplication1\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\repos\Andreani\WebApplication1\WebApplication1\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\repos\Andreani\WebApplication1\WebApplication1\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\repos\Andreani\WebApplication1\WebApplication1\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+D:\repos\Andreani\WebApplication1\WebApplication1\bin\Debug\net6.0\System.Drawing.Common.dll
+D:\repos\Andreani\WebApplication1\WebApplication1\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+D:\repos\Andreani\WebApplication1\WebApplication1\bin\Debug\net6.0\System.Runtime.Caching.dll
+D:\repos\Andreani\WebApplication1\WebApplication1\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\repos\Andreani\WebApplication1\WebApplication1\bin\Debug\net6.0\System.Security.Permissions.dll
+D:\repos\Andreani\WebApplication1\WebApplication1\bin\Debug\net6.0\System.Windows.Extensions.dll
+D:\repos\Andreani\WebApplication1\WebApplication1\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\repos\Andreani\WebApplication1\WebApplication1\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\repos\Andreani\WebApplication1\WebApplication1\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\repos\Andreani\WebApplication1\WebApplication1\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\repos\Andreani\WebApplication1\WebApplication1\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\repos\Andreani\WebApplication1\WebApplication1\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\repos\Andreani\WebApplication1\WebApplication1\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+D:\repos\Andreani\WebApplication1\WebApplication1\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\repos\Andreani\WebApplication1\WebApplication1\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\repos\Andreani\WebApplication1\WebApplication1\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+D:\repos\Andreani\WebApplication1\WebApplication1\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\repos\Andreani\WebApplication1\WebApplication1\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+D:\repos\Andreani\WebApplication1\WebApplication1\bin\Debug\net6.0\Application.dll
+D:\repos\Andreani\WebApplication1\WebApplication1\bin\Debug\net6.0\Data.dll
+D:\repos\Andreani\WebApplication1\WebApplication1\bin\Debug\net6.0\Domain.dll
+D:\repos\Andreani\WebApplication1\WebApplication1\bin\Debug\net6.0\Application.pdb
+D:\repos\Andreani\WebApplication1\WebApplication1\bin\Debug\net6.0\Data.pdb
+D:\repos\Andreani\WebApplication1\WebApplication1\bin\Debug\net6.0\Domain.pdb
+D:\repos\Andreani\WebApplication1\WebApplication1\obj\Debug\net6.0\WebApplication1.csproj.AssemblyReference.cache
+D:\repos\Andreani\WebApplication1\WebApplication1\obj\Debug\net6.0\WebApplication1.GeneratedMSBuildEditorConfig.editorconfig
+D:\repos\Andreani\WebApplication1\WebApplication1\obj\Debug\net6.0\WebApplication1.AssemblyInfoInputs.cache
+D:\repos\Andreani\WebApplication1\WebApplication1\obj\Debug\net6.0\WebApplication1.AssemblyInfo.cs
+D:\repos\Andreani\WebApplication1\WebApplication1\obj\Debug\net6.0\WebApplication1.csproj.CoreCompileInputs.cache
+D:\repos\Andreani\WebApplication1\WebApplication1\obj\Debug\net6.0\WebApplication1.MvcApplicationPartsAssemblyInfo.cs
+D:\repos\Andreani\WebApplication1\WebApplication1\obj\Debug\net6.0\WebApplication1.MvcApplicationPartsAssemblyInfo.cache
+D:\repos\Andreani\WebApplication1\WebApplication1\obj\Debug\net6.0\staticwebassets.build.json
+D:\repos\Andreani\WebApplication1\WebApplication1\obj\Debug\net6.0\staticwebassets.development.json
+D:\repos\Andreani\WebApplication1\WebApplication1\obj\Debug\net6.0\scopedcss\bundle\WebApplication1.styles.css
+D:\repos\Andreani\WebApplication1\WebApplication1\obj\Debug\net6.0\WebApplication1.csproj.CopyComplete
+D:\repos\Andreani\WebApplication1\WebApplication1\obj\Debug\net6.0\WebApplication1.dll
+D:\repos\Andreani\WebApplication1\WebApplication1\obj\Debug\net6.0\ref\WebApplication1.dll
+D:\repos\Andreani\WebApplication1\WebApplication1\obj\Debug\net6.0\WebApplication1.pdb
+D:\repos\Andreani\WebApplication1\WebApplication1\obj\Debug\net6.0\WebApplication1.genruntimeconfig.cache
+C:\Users\Bazan\Desktop\TP2 API Rest\WebApplication1\WebApplication1\WebApplication1\obj\Debug\net6.0\WebApplication1.csproj.AssemblyReference.cache
+C:\Users\Bazan\Desktop\TP2 API Rest\WebApplication1\WebApplication1\WebApplication1\obj\Debug\net6.0\WebApplication1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Bazan\Desktop\TP2 API Rest\WebApplication1\WebApplication1\WebApplication1\obj\Debug\net6.0\WebApplication1.AssemblyInfoInputs.cache
+C:\Users\Bazan\Desktop\TP2 API Rest\WebApplication1\WebApplication1\WebApplication1\obj\Debug\net6.0\WebApplication1.AssemblyInfo.cs
+C:\Users\Bazan\Desktop\TP2 API Rest\WebApplication1\WebApplication1\WebApplication1\obj\Debug\net6.0\WebApplication1.csproj.CoreCompileInputs.cache
+C:\Users\Bazan\Desktop\TP2 API Rest\WebApplication1\WebApplication1\WebApplication1\obj\Debug\net6.0\WebApplication1.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Bazan\Desktop\TP2 API Rest\WebApplication1\WebApplication1\WebApplication1\obj\Debug\net6.0\WebApplication1.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Bazan\Desktop\TP2 API Rest\WebApplication1\WebApplication1\WebApplication1\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\Bazan\Desktop\TP2 API Rest\WebApplication1\WebApplication1\WebApplication1\bin\Debug\net6.0\appsettings.json
+C:\Users\Bazan\Desktop\TP2 API Rest\WebApplication1\WebApplication1\WebApplication1\bin\Debug\net6.0\WebApplication1.exe
+C:\Users\Bazan\Desktop\TP2 API Rest\WebApplication1\WebApplication1\WebApplication1\bin\Debug\net6.0\WebApplication1.deps.json
+C:\Users\Bazan\Desktop\TP2 API Rest\WebApplication1\WebApplication1\WebApplication1\bin\Debug\net6.0\WebApplication1.runtimeconfig.json
+C:\Users\Bazan\Desktop\TP2 API Rest\WebApplication1\WebApplication1\WebApplication1\bin\Debug\net6.0\WebApplication1.dll
+C:\Users\Bazan\Desktop\TP2 API Rest\WebApplication1\WebApplication1\WebApplication1\bin\Debug\net6.0\WebApplication1.pdb
+C:\Users\Bazan\Desktop\TP2 API Rest\WebApplication1\WebApplication1\WebApplication1\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\Bazan\Desktop\TP2 API Rest\WebApplication1\WebApplication1\WebApplication1\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\Bazan\Desktop\TP2 API Rest\WebApplication1\WebApplication1\WebApplication1\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Bazan\Desktop\TP2 API Rest\WebApplication1\WebApplication1\WebApplication1\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Bazan\Desktop\TP2 API Rest\WebApplication1\WebApplication1\WebApplication1\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\Bazan\Desktop\TP2 API Rest\WebApplication1\WebApplication1\WebApplication1\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\Bazan\Desktop\TP2 API Rest\WebApplication1\WebApplication1\WebApplication1\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+C:\Users\Bazan\Desktop\TP2 API Rest\WebApplication1\WebApplication1\WebApplication1\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Bazan\Desktop\TP2 API Rest\WebApplication1\WebApplication1\WebApplication1\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\Bazan\Desktop\TP2 API Rest\WebApplication1\WebApplication1\WebApplication1\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Bazan\Desktop\TP2 API Rest\WebApplication1\WebApplication1\WebApplication1\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Bazan\Desktop\TP2 API Rest\WebApplication1\WebApplication1\WebApplication1\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Bazan\Desktop\TP2 API Rest\WebApplication1\WebApplication1\WebApplication1\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\Bazan\Desktop\TP2 API Rest\WebApplication1\WebApplication1\WebApplication1\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Bazan\Desktop\TP2 API Rest\WebApplication1\WebApplication1\WebApplication1\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Bazan\Desktop\TP2 API Rest\WebApplication1\WebApplication1\WebApplication1\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Bazan\Desktop\TP2 API Rest\WebApplication1\WebApplication1\WebApplication1\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Bazan\Desktop\TP2 API Rest\WebApplication1\WebApplication1\WebApplication1\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+C:\Users\Bazan\Desktop\TP2 API Rest\WebApplication1\WebApplication1\WebApplication1\bin\Debug\net6.0\System.Drawing.Common.dll
+C:\Users\Bazan\Desktop\TP2 API Rest\WebApplication1\WebApplication1\WebApplication1\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Bazan\Desktop\TP2 API Rest\WebApplication1\WebApplication1\WebApplication1\bin\Debug\net6.0\System.Runtime.Caching.dll
+C:\Users\Bazan\Desktop\TP2 API Rest\WebApplication1\WebApplication1\WebApplication1\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Bazan\Desktop\TP2 API Rest\WebApplication1\WebApplication1\WebApplication1\bin\Debug\net6.0\System.Security.Permissions.dll
+C:\Users\Bazan\Desktop\TP2 API Rest\WebApplication1\WebApplication1\WebApplication1\bin\Debug\net6.0\System.Windows.Extensions.dll
+C:\Users\Bazan\Desktop\TP2 API Rest\WebApplication1\WebApplication1\WebApplication1\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Bazan\Desktop\TP2 API Rest\WebApplication1\WebApplication1\WebApplication1\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Bazan\Desktop\TP2 API Rest\WebApplication1\WebApplication1\WebApplication1\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Bazan\Desktop\TP2 API Rest\WebApplication1\WebApplication1\WebApplication1\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Bazan\Desktop\TP2 API Rest\WebApplication1\WebApplication1\WebApplication1\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Bazan\Desktop\TP2 API Rest\WebApplication1\WebApplication1\WebApplication1\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Bazan\Desktop\TP2 API Rest\WebApplication1\WebApplication1\WebApplication1\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Bazan\Desktop\TP2 API Rest\WebApplication1\WebApplication1\WebApplication1\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\Bazan\Desktop\TP2 API Rest\WebApplication1\WebApplication1\WebApplication1\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\Bazan\Desktop\TP2 API Rest\WebApplication1\WebApplication1\WebApplication1\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\Bazan\Desktop\TP2 API Rest\WebApplication1\WebApplication1\WebApplication1\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Bazan\Desktop\TP2 API Rest\WebApplication1\WebApplication1\WebApplication1\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\Bazan\Desktop\TP2 API Rest\WebApplication1\WebApplication1\WebApplication1\bin\Debug\net6.0\Application.dll
+C:\Users\Bazan\Desktop\TP2 API Rest\WebApplication1\WebApplication1\WebApplication1\bin\Debug\net6.0\Data.dll
+C:\Users\Bazan\Desktop\TP2 API Rest\WebApplication1\WebApplication1\WebApplication1\bin\Debug\net6.0\Domain.dll
+C:\Users\Bazan\Desktop\TP2 API Rest\WebApplication1\WebApplication1\WebApplication1\bin\Debug\net6.0\Application.pdb
+C:\Users\Bazan\Desktop\TP2 API Rest\WebApplication1\WebApplication1\WebApplication1\bin\Debug\net6.0\Data.pdb
+C:\Users\Bazan\Desktop\TP2 API Rest\WebApplication1\WebApplication1\WebApplication1\bin\Debug\net6.0\Domain.pdb
+C:\Users\Bazan\Desktop\TP2 API Rest\WebApplication1\WebApplication1\WebApplication1\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\Bazan\Desktop\TP2 API Rest\WebApplication1\WebApplication1\WebApplication1\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\Bazan\Desktop\TP2 API Rest\WebApplication1\WebApplication1\WebApplication1\obj\Debug\net6.0\scopedcss\bundle\WebApplication1.styles.css
+C:\Users\Bazan\Desktop\TP2 API Rest\WebApplication1\WebApplication1\WebApplication1\obj\Debug\net6.0\WebApplication1.csproj.CopyComplete
+C:\Users\Bazan\Desktop\TP2 API Rest\WebApplication1\WebApplication1\WebApplication1\obj\Debug\net6.0\WebApplication1.dll
+C:\Users\Bazan\Desktop\TP2 API Rest\WebApplication1\WebApplication1\WebApplication1\obj\Debug\net6.0\refint\WebApplication1.dll
+C:\Users\Bazan\Desktop\TP2 API Rest\WebApplication1\WebApplication1\WebApplication1\obj\Debug\net6.0\WebApplication1.pdb
+C:\Users\Bazan\Desktop\TP2 API Rest\WebApplication1\WebApplication1\WebApplication1\obj\Debug\net6.0\WebApplication1.genruntimeconfig.cache
+C:\Users\Bazan\Desktop\TP2 API Rest\WebApplication1\WebApplication1\WebApplication1\obj\Debug\net6.0\ref\WebApplication1.dll
+C:\Users\Bazan\Desktop\TP2 API Rest\WebApplication1\WebApplication1\WebApplication1\bin\Debug\net6.0\Humanizer.dll
+C:\Users\Bazan\Desktop\TP2 API Rest\WebApplication1\WebApplication1\WebApplication1\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Bazan\Desktop\TP2 API Rest\WebApplication1\TP2-REST-Bazan_Geronimo\WebApplication1\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\Bazan\Desktop\TP2 API Rest\WebApplication1\TP2-REST-Bazan_Geronimo\WebApplication1\bin\Debug\net6.0\appsettings.json
+C:\Users\Bazan\Desktop\TP2 API Rest\WebApplication1\TP2-REST-Bazan_Geronimo\WebApplication1\bin\Debug\net6.0\WebApplication1.exe
+C:\Users\Bazan\Desktop\TP2 API Rest\WebApplication1\TP2-REST-Bazan_Geronimo\WebApplication1\bin\Debug\net6.0\WebApplication1.deps.json
+C:\Users\Bazan\Desktop\TP2 API Rest\WebApplication1\TP2-REST-Bazan_Geronimo\WebApplication1\bin\Debug\net6.0\WebApplication1.runtimeconfig.json
+C:\Users\Bazan\Desktop\TP2 API Rest\WebApplication1\TP2-REST-Bazan_Geronimo\WebApplication1\bin\Debug\net6.0\WebApplication1.dll
+C:\Users\Bazan\Desktop\TP2 API Rest\WebApplication1\TP2-REST-Bazan_Geronimo\WebApplication1\bin\Debug\net6.0\WebApplication1.pdb
+C:\Users\Bazan\Desktop\TP2 API Rest\WebApplication1\TP2-REST-Bazan_Geronimo\WebApplication1\bin\Debug\net6.0\Humanizer.dll
+C:\Users\Bazan\Desktop\TP2 API Rest\WebApplication1\TP2-REST-Bazan_Geronimo\WebApplication1\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\Bazan\Desktop\TP2 API Rest\WebApplication1\TP2-REST-Bazan_Geronimo\WebApplication1\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\Bazan\Desktop\TP2 API Rest\WebApplication1\TP2-REST-Bazan_Geronimo\WebApplication1\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Bazan\Desktop\TP2 API Rest\WebApplication1\TP2-REST-Bazan_Geronimo\WebApplication1\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Bazan\Desktop\TP2 API Rest\WebApplication1\TP2-REST-Bazan_Geronimo\WebApplication1\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Bazan\Desktop\TP2 API Rest\WebApplication1\TP2-REST-Bazan_Geronimo\WebApplication1\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\Bazan\Desktop\TP2 API Rest\WebApplication1\TP2-REST-Bazan_Geronimo\WebApplication1\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\Bazan\Desktop\TP2 API Rest\WebApplication1\TP2-REST-Bazan_Geronimo\WebApplication1\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+C:\Users\Bazan\Desktop\TP2 API Rest\WebApplication1\TP2-REST-Bazan_Geronimo\WebApplication1\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Bazan\Desktop\TP2 API Rest\WebApplication1\TP2-REST-Bazan_Geronimo\WebApplication1\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\Bazan\Desktop\TP2 API Rest\WebApplication1\TP2-REST-Bazan_Geronimo\WebApplication1\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Bazan\Desktop\TP2 API Rest\WebApplication1\TP2-REST-Bazan_Geronimo\WebApplication1\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Bazan\Desktop\TP2 API Rest\WebApplication1\TP2-REST-Bazan_Geronimo\WebApplication1\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Bazan\Desktop\TP2 API Rest\WebApplication1\TP2-REST-Bazan_Geronimo\WebApplication1\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\Bazan\Desktop\TP2 API Rest\WebApplication1\TP2-REST-Bazan_Geronimo\WebApplication1\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Bazan\Desktop\TP2 API Rest\WebApplication1\TP2-REST-Bazan_Geronimo\WebApplication1\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Bazan\Desktop\TP2 API Rest\WebApplication1\TP2-REST-Bazan_Geronimo\WebApplication1\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Bazan\Desktop\TP2 API Rest\WebApplication1\TP2-REST-Bazan_Geronimo\WebApplication1\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Bazan\Desktop\TP2 API Rest\WebApplication1\TP2-REST-Bazan_Geronimo\WebApplication1\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+C:\Users\Bazan\Desktop\TP2 API Rest\WebApplication1\TP2-REST-Bazan_Geronimo\WebApplication1\bin\Debug\net6.0\System.Drawing.Common.dll
+C:\Users\Bazan\Desktop\TP2 API Rest\WebApplication1\TP2-REST-Bazan_Geronimo\WebApplication1\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Bazan\Desktop\TP2 API Rest\WebApplication1\TP2-REST-Bazan_Geronimo\WebApplication1\bin\Debug\net6.0\System.Runtime.Caching.dll
+C:\Users\Bazan\Desktop\TP2 API Rest\WebApplication1\TP2-REST-Bazan_Geronimo\WebApplication1\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Bazan\Desktop\TP2 API Rest\WebApplication1\TP2-REST-Bazan_Geronimo\WebApplication1\bin\Debug\net6.0\System.Security.Permissions.dll
+C:\Users\Bazan\Desktop\TP2 API Rest\WebApplication1\TP2-REST-Bazan_Geronimo\WebApplication1\bin\Debug\net6.0\System.Windows.Extensions.dll
+C:\Users\Bazan\Desktop\TP2 API Rest\WebApplication1\TP2-REST-Bazan_Geronimo\WebApplication1\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Bazan\Desktop\TP2 API Rest\WebApplication1\TP2-REST-Bazan_Geronimo\WebApplication1\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Bazan\Desktop\TP2 API Rest\WebApplication1\TP2-REST-Bazan_Geronimo\WebApplication1\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Bazan\Desktop\TP2 API Rest\WebApplication1\TP2-REST-Bazan_Geronimo\WebApplication1\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Bazan\Desktop\TP2 API Rest\WebApplication1\TP2-REST-Bazan_Geronimo\WebApplication1\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Bazan\Desktop\TP2 API Rest\WebApplication1\TP2-REST-Bazan_Geronimo\WebApplication1\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Bazan\Desktop\TP2 API Rest\WebApplication1\TP2-REST-Bazan_Geronimo\WebApplication1\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Bazan\Desktop\TP2 API Rest\WebApplication1\TP2-REST-Bazan_Geronimo\WebApplication1\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\Bazan\Desktop\TP2 API Rest\WebApplication1\TP2-REST-Bazan_Geronimo\WebApplication1\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\Bazan\Desktop\TP2 API Rest\WebApplication1\TP2-REST-Bazan_Geronimo\WebApplication1\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\Bazan\Desktop\TP2 API Rest\WebApplication1\TP2-REST-Bazan_Geronimo\WebApplication1\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Bazan\Desktop\TP2 API Rest\WebApplication1\TP2-REST-Bazan_Geronimo\WebApplication1\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\Bazan\Desktop\TP2 API Rest\WebApplication1\TP2-REST-Bazan_Geronimo\WebApplication1\bin\Debug\net6.0\Application.dll
+C:\Users\Bazan\Desktop\TP2 API Rest\WebApplication1\TP2-REST-Bazan_Geronimo\WebApplication1\bin\Debug\net6.0\Data.dll
+C:\Users\Bazan\Desktop\TP2 API Rest\WebApplication1\TP2-REST-Bazan_Geronimo\WebApplication1\bin\Debug\net6.0\Domain.dll
+C:\Users\Bazan\Desktop\TP2 API Rest\WebApplication1\TP2-REST-Bazan_Geronimo\WebApplication1\bin\Debug\net6.0\Application.pdb
+C:\Users\Bazan\Desktop\TP2 API Rest\WebApplication1\TP2-REST-Bazan_Geronimo\WebApplication1\bin\Debug\net6.0\Data.pdb
+C:\Users\Bazan\Desktop\TP2 API Rest\WebApplication1\TP2-REST-Bazan_Geronimo\WebApplication1\bin\Debug\net6.0\Domain.pdb
+C:\Users\Bazan\Desktop\TP2 API Rest\WebApplication1\TP2-REST-Bazan_Geronimo\WebApplication1\obj\Debug\net6.0\WebApplication1.csproj.AssemblyReference.cache
+C:\Users\Bazan\Desktop\TP2 API Rest\WebApplication1\TP2-REST-Bazan_Geronimo\WebApplication1\obj\Debug\net6.0\WebApplication1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Bazan\Desktop\TP2 API Rest\WebApplication1\TP2-REST-Bazan_Geronimo\WebApplication1\obj\Debug\net6.0\WebApplication1.AssemblyInfoInputs.cache
+C:\Users\Bazan\Desktop\TP2 API Rest\WebApplication1\TP2-REST-Bazan_Geronimo\WebApplication1\obj\Debug\net6.0\WebApplication1.AssemblyInfo.cs
+C:\Users\Bazan\Desktop\TP2 API Rest\WebApplication1\TP2-REST-Bazan_Geronimo\WebApplication1\obj\Debug\net6.0\WebApplication1.csproj.CoreCompileInputs.cache
+C:\Users\Bazan\Desktop\TP2 API Rest\WebApplication1\TP2-REST-Bazan_Geronimo\WebApplication1\obj\Debug\net6.0\WebApplication1.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Bazan\Desktop\TP2 API Rest\WebApplication1\TP2-REST-Bazan_Geronimo\WebApplication1\obj\Debug\net6.0\WebApplication1.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Bazan\Desktop\TP2 API Rest\WebApplication1\TP2-REST-Bazan_Geronimo\WebApplication1\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\Bazan\Desktop\TP2 API Rest\WebApplication1\TP2-REST-Bazan_Geronimo\WebApplication1\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\Bazan\Desktop\TP2 API Rest\WebApplication1\TP2-REST-Bazan_Geronimo\WebApplication1\obj\Debug\net6.0\scopedcss\bundle\WebApplication1.styles.css
+C:\Users\Bazan\Desktop\TP2 API Rest\WebApplication1\TP2-REST-Bazan_Geronimo\WebApplication1\obj\Debug\net6.0\WebApplication1.csproj.CopyComplete
+C:\Users\Bazan\Desktop\TP2 API Rest\WebApplication1\TP2-REST-Bazan_Geronimo\WebApplication1\obj\Debug\net6.0\WebApplication1.dll
+C:\Users\Bazan\Desktop\TP2 API Rest\WebApplication1\TP2-REST-Bazan_Geronimo\WebApplication1\obj\Debug\net6.0\refint\WebApplication1.dll
+C:\Users\Bazan\Desktop\TP2 API Rest\WebApplication1\TP2-REST-Bazan_Geronimo\WebApplication1\obj\Debug\net6.0\WebApplication1.pdb
+C:\Users\Bazan\Desktop\TP2 API Rest\WebApplication1\TP2-REST-Bazan_Geronimo\WebApplication1\obj\Debug\net6.0\WebApplication1.genruntimeconfig.cache
+C:\Users\Bazan\Desktop\TP2 API Rest\WebApplication1\TP2-REST-Bazan_Geronimo\WebApplication1\obj\Debug\net6.0\ref\WebApplication1.dll
+C:\Users\Bazan\Downloads\TP2-REST-Bazan_Geronimo\TP2-REST-Bazan_Geronimo\WebApplication1\bin\Debug\net6.0\appsettings.json
+C:\Users\Bazan\Downloads\TP2-REST-Bazan_Geronimo\TP2-REST-Bazan_Geronimo\WebApplication1\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\Bazan\Downloads\TP2-REST-Bazan_Geronimo\TP2-REST-Bazan_Geronimo\WebApplication1\bin\Debug\net6.0\WebApplication1.exe
+C:\Users\Bazan\Downloads\TP2-REST-Bazan_Geronimo\TP2-REST-Bazan_Geronimo\WebApplication1\bin\Debug\net6.0\WebApplication1.deps.json
+C:\Users\Bazan\Downloads\TP2-REST-Bazan_Geronimo\TP2-REST-Bazan_Geronimo\WebApplication1\bin\Debug\net6.0\WebApplication1.runtimeconfig.json
+C:\Users\Bazan\Downloads\TP2-REST-Bazan_Geronimo\TP2-REST-Bazan_Geronimo\WebApplication1\bin\Debug\net6.0\WebApplication1.dll
+C:\Users\Bazan\Downloads\TP2-REST-Bazan_Geronimo\TP2-REST-Bazan_Geronimo\WebApplication1\bin\Debug\net6.0\WebApplication1.pdb
+C:\Users\Bazan\Downloads\TP2-REST-Bazan_Geronimo\TP2-REST-Bazan_Geronimo\WebApplication1\bin\Debug\net6.0\Humanizer.dll
+C:\Users\Bazan\Downloads\TP2-REST-Bazan_Geronimo\TP2-REST-Bazan_Geronimo\WebApplication1\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\Bazan\Downloads\TP2-REST-Bazan_Geronimo\TP2-REST-Bazan_Geronimo\WebApplication1\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\Bazan\Downloads\TP2-REST-Bazan_Geronimo\TP2-REST-Bazan_Geronimo\WebApplication1\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Bazan\Downloads\TP2-REST-Bazan_Geronimo\TP2-REST-Bazan_Geronimo\WebApplication1\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Bazan\Downloads\TP2-REST-Bazan_Geronimo\TP2-REST-Bazan_Geronimo\WebApplication1\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Bazan\Downloads\TP2-REST-Bazan_Geronimo\TP2-REST-Bazan_Geronimo\WebApplication1\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\Bazan\Downloads\TP2-REST-Bazan_Geronimo\TP2-REST-Bazan_Geronimo\WebApplication1\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\Bazan\Downloads\TP2-REST-Bazan_Geronimo\TP2-REST-Bazan_Geronimo\WebApplication1\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+C:\Users\Bazan\Downloads\TP2-REST-Bazan_Geronimo\TP2-REST-Bazan_Geronimo\WebApplication1\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Bazan\Downloads\TP2-REST-Bazan_Geronimo\TP2-REST-Bazan_Geronimo\WebApplication1\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\Bazan\Downloads\TP2-REST-Bazan_Geronimo\TP2-REST-Bazan_Geronimo\WebApplication1\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Bazan\Downloads\TP2-REST-Bazan_Geronimo\TP2-REST-Bazan_Geronimo\WebApplication1\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Bazan\Downloads\TP2-REST-Bazan_Geronimo\TP2-REST-Bazan_Geronimo\WebApplication1\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Bazan\Downloads\TP2-REST-Bazan_Geronimo\TP2-REST-Bazan_Geronimo\WebApplication1\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\Bazan\Downloads\TP2-REST-Bazan_Geronimo\TP2-REST-Bazan_Geronimo\WebApplication1\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Bazan\Downloads\TP2-REST-Bazan_Geronimo\TP2-REST-Bazan_Geronimo\WebApplication1\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Bazan\Downloads\TP2-REST-Bazan_Geronimo\TP2-REST-Bazan_Geronimo\WebApplication1\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Bazan\Downloads\TP2-REST-Bazan_Geronimo\TP2-REST-Bazan_Geronimo\WebApplication1\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Bazan\Downloads\TP2-REST-Bazan_Geronimo\TP2-REST-Bazan_Geronimo\WebApplication1\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+C:\Users\Bazan\Downloads\TP2-REST-Bazan_Geronimo\TP2-REST-Bazan_Geronimo\WebApplication1\bin\Debug\net6.0\System.Drawing.Common.dll
+C:\Users\Bazan\Downloads\TP2-REST-Bazan_Geronimo\TP2-REST-Bazan_Geronimo\WebApplication1\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Bazan\Downloads\TP2-REST-Bazan_Geronimo\TP2-REST-Bazan_Geronimo\WebApplication1\bin\Debug\net6.0\System.Runtime.Caching.dll
+C:\Users\Bazan\Downloads\TP2-REST-Bazan_Geronimo\TP2-REST-Bazan_Geronimo\WebApplication1\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Bazan\Downloads\TP2-REST-Bazan_Geronimo\TP2-REST-Bazan_Geronimo\WebApplication1\bin\Debug\net6.0\System.Security.Permissions.dll
+C:\Users\Bazan\Downloads\TP2-REST-Bazan_Geronimo\TP2-REST-Bazan_Geronimo\WebApplication1\bin\Debug\net6.0\System.Windows.Extensions.dll
+C:\Users\Bazan\Downloads\TP2-REST-Bazan_Geronimo\TP2-REST-Bazan_Geronimo\WebApplication1\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Bazan\Downloads\TP2-REST-Bazan_Geronimo\TP2-REST-Bazan_Geronimo\WebApplication1\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Bazan\Downloads\TP2-REST-Bazan_Geronimo\TP2-REST-Bazan_Geronimo\WebApplication1\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Bazan\Downloads\TP2-REST-Bazan_Geronimo\TP2-REST-Bazan_Geronimo\WebApplication1\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Bazan\Downloads\TP2-REST-Bazan_Geronimo\TP2-REST-Bazan_Geronimo\WebApplication1\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Bazan\Downloads\TP2-REST-Bazan_Geronimo\TP2-REST-Bazan_Geronimo\WebApplication1\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Bazan\Downloads\TP2-REST-Bazan_Geronimo\TP2-REST-Bazan_Geronimo\WebApplication1\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Bazan\Downloads\TP2-REST-Bazan_Geronimo\TP2-REST-Bazan_Geronimo\WebApplication1\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\Bazan\Downloads\TP2-REST-Bazan_Geronimo\TP2-REST-Bazan_Geronimo\WebApplication1\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\Bazan\Downloads\TP2-REST-Bazan_Geronimo\TP2-REST-Bazan_Geronimo\WebApplication1\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\Bazan\Downloads\TP2-REST-Bazan_Geronimo\TP2-REST-Bazan_Geronimo\WebApplication1\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Bazan\Downloads\TP2-REST-Bazan_Geronimo\TP2-REST-Bazan_Geronimo\WebApplication1\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\Bazan\Downloads\TP2-REST-Bazan_Geronimo\TP2-REST-Bazan_Geronimo\WebApplication1\bin\Debug\net6.0\Application.dll
+C:\Users\Bazan\Downloads\TP2-REST-Bazan_Geronimo\TP2-REST-Bazan_Geronimo\WebApplication1\bin\Debug\net6.0\Data.dll
+C:\Users\Bazan\Downloads\TP2-REST-Bazan_Geronimo\TP2-REST-Bazan_Geronimo\WebApplication1\bin\Debug\net6.0\Domain.dll
+C:\Users\Bazan\Downloads\TP2-REST-Bazan_Geronimo\TP2-REST-Bazan_Geronimo\WebApplication1\bin\Debug\net6.0\Application.pdb
+C:\Users\Bazan\Downloads\TP2-REST-Bazan_Geronimo\TP2-REST-Bazan_Geronimo\WebApplication1\bin\Debug\net6.0\Data.pdb
+C:\Users\Bazan\Downloads\TP2-REST-Bazan_Geronimo\TP2-REST-Bazan_Geronimo\WebApplication1\bin\Debug\net6.0\Domain.pdb
+C:\Users\Bazan\Downloads\TP2-REST-Bazan_Geronimo\TP2-REST-Bazan_Geronimo\WebApplication1\obj\Debug\net6.0\WebApplication1.csproj.AssemblyReference.cache
+C:\Users\Bazan\Downloads\TP2-REST-Bazan_Geronimo\TP2-REST-Bazan_Geronimo\WebApplication1\obj\Debug\net6.0\WebApplication1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Bazan\Downloads\TP2-REST-Bazan_Geronimo\TP2-REST-Bazan_Geronimo\WebApplication1\obj\Debug\net6.0\WebApplication1.AssemblyInfoInputs.cache
+C:\Users\Bazan\Downloads\TP2-REST-Bazan_Geronimo\TP2-REST-Bazan_Geronimo\WebApplication1\obj\Debug\net6.0\WebApplication1.AssemblyInfo.cs
+C:\Users\Bazan\Downloads\TP2-REST-Bazan_Geronimo\TP2-REST-Bazan_Geronimo\WebApplication1\obj\Debug\net6.0\WebApplication1.csproj.CoreCompileInputs.cache
+C:\Users\Bazan\Downloads\TP2-REST-Bazan_Geronimo\TP2-REST-Bazan_Geronimo\WebApplication1\obj\Debug\net6.0\WebApplication1.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Bazan\Downloads\TP2-REST-Bazan_Geronimo\TP2-REST-Bazan_Geronimo\WebApplication1\obj\Debug\net6.0\WebApplication1.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Bazan\Downloads\TP2-REST-Bazan_Geronimo\TP2-REST-Bazan_Geronimo\WebApplication1\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\Bazan\Downloads\TP2-REST-Bazan_Geronimo\TP2-REST-Bazan_Geronimo\WebApplication1\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\Bazan\Downloads\TP2-REST-Bazan_Geronimo\TP2-REST-Bazan_Geronimo\WebApplication1\obj\Debug\net6.0\scopedcss\bundle\WebApplication1.styles.css
+C:\Users\Bazan\Downloads\TP2-REST-Bazan_Geronimo\TP2-REST-Bazan_Geronimo\WebApplication1\obj\Debug\net6.0\WebApplication1.csproj.CopyComplete
+C:\Users\Bazan\Downloads\TP2-REST-Bazan_Geronimo\TP2-REST-Bazan_Geronimo\WebApplication1\obj\Debug\net6.0\WebApplication1.dll
+C:\Users\Bazan\Downloads\TP2-REST-Bazan_Geronimo\TP2-REST-Bazan_Geronimo\WebApplication1\obj\Debug\net6.0\refint\WebApplication1.dll
+C:\Users\Bazan\Downloads\TP2-REST-Bazan_Geronimo\TP2-REST-Bazan_Geronimo\WebApplication1\obj\Debug\net6.0\WebApplication1.pdb
+C:\Users\Bazan\Downloads\TP2-REST-Bazan_Geronimo\TP2-REST-Bazan_Geronimo\WebApplication1\obj\Debug\net6.0\WebApplication1.genruntimeconfig.cache
+C:\Users\Bazan\Downloads\TP2-REST-Bazan_Geronimo\TP2-REST-Bazan_Geronimo\WebApplication1\obj\Debug\net6.0\ref\WebApplication1.dll
+C:\Users\Bazan\Downloads\Reentrega-TP3-UI-Bazan_Geronimo\Back-end\WebApplication1\bin\Debug\net6.0\Humanizer.dll
+C:\Users\Bazan\Downloads\Reentrega-TP3-UI-Bazan_Geronimo\Back-end\WebApplication1\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\Bazan\Downloads\Reentrega-TP3-UI-Bazan_Geronimo\Back-end\WebApplication1\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\Bazan\Downloads\Reentrega-TP3-UI-Bazan_Geronimo\Back-end\WebApplication1\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Bazan\Downloads\Reentrega-TP3-UI-Bazan_Geronimo\Back-end\WebApplication1\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Bazan\Downloads\Reentrega-TP3-UI-Bazan_Geronimo\Back-end\WebApplication1\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Bazan\Downloads\Reentrega-TP3-UI-Bazan_Geronimo\Back-end\WebApplication1\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\Bazan\Downloads\Reentrega-TP3-UI-Bazan_Geronimo\Back-end\WebApplication1\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\Bazan\Downloads\Reentrega-TP3-UI-Bazan_Geronimo\Back-end\WebApplication1\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+C:\Users\Bazan\Downloads\Reentrega-TP3-UI-Bazan_Geronimo\Back-end\WebApplication1\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Bazan\Downloads\Reentrega-TP3-UI-Bazan_Geronimo\Back-end\WebApplication1\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\Bazan\Downloads\Reentrega-TP3-UI-Bazan_Geronimo\Back-end\WebApplication1\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Bazan\Downloads\Reentrega-TP3-UI-Bazan_Geronimo\Back-end\WebApplication1\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Bazan\Downloads\Reentrega-TP3-UI-Bazan_Geronimo\Back-end\WebApplication1\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Bazan\Downloads\Reentrega-TP3-UI-Bazan_Geronimo\Back-end\WebApplication1\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\Bazan\Downloads\Reentrega-TP3-UI-Bazan_Geronimo\Back-end\WebApplication1\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Bazan\Downloads\Reentrega-TP3-UI-Bazan_Geronimo\Back-end\WebApplication1\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Bazan\Downloads\Reentrega-TP3-UI-Bazan_Geronimo\Back-end\WebApplication1\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Bazan\Downloads\Reentrega-TP3-UI-Bazan_Geronimo\Back-end\WebApplication1\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Bazan\Downloads\Reentrega-TP3-UI-Bazan_Geronimo\Back-end\WebApplication1\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+C:\Users\Bazan\Downloads\Reentrega-TP3-UI-Bazan_Geronimo\Back-end\WebApplication1\bin\Debug\net6.0\System.Drawing.Common.dll
+C:\Users\Bazan\Downloads\Reentrega-TP3-UI-Bazan_Geronimo\Back-end\WebApplication1\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Bazan\Downloads\Reentrega-TP3-UI-Bazan_Geronimo\Back-end\WebApplication1\bin\Debug\net6.0\System.Runtime.Caching.dll
+C:\Users\Bazan\Downloads\Reentrega-TP3-UI-Bazan_Geronimo\Back-end\WebApplication1\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Bazan\Downloads\Reentrega-TP3-UI-Bazan_Geronimo\Back-end\WebApplication1\bin\Debug\net6.0\System.Security.Permissions.dll
+C:\Users\Bazan\Downloads\Reentrega-TP3-UI-Bazan_Geronimo\Back-end\WebApplication1\bin\Debug\net6.0\System.Windows.Extensions.dll
+C:\Users\Bazan\Downloads\Reentrega-TP3-UI-Bazan_Geronimo\Back-end\WebApplication1\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Bazan\Downloads\Reentrega-TP3-UI-Bazan_Geronimo\Back-end\WebApplication1\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Bazan\Downloads\Reentrega-TP3-UI-Bazan_Geronimo\Back-end\WebApplication1\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Bazan\Downloads\Reentrega-TP3-UI-Bazan_Geronimo\Back-end\WebApplication1\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Bazan\Downloads\Reentrega-TP3-UI-Bazan_Geronimo\Back-end\WebApplication1\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Bazan\Downloads\Reentrega-TP3-UI-Bazan_Geronimo\Back-end\WebApplication1\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Bazan\Downloads\Reentrega-TP3-UI-Bazan_Geronimo\Back-end\WebApplication1\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Bazan\Downloads\Reentrega-TP3-UI-Bazan_Geronimo\Back-end\WebApplication1\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\Bazan\Downloads\Reentrega-TP3-UI-Bazan_Geronimo\Back-end\WebApplication1\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\Bazan\Downloads\Reentrega-TP3-UI-Bazan_Geronimo\Back-end\WebApplication1\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\Bazan\Downloads\Reentrega-TP3-UI-Bazan_Geronimo\Back-end\WebApplication1\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Bazan\Downloads\Reentrega-TP3-UI-Bazan_Geronimo\Back-end\WebApplication1\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\Bazan\Downloads\Reentrega-TP3-UI-Bazan_Geronimo\Back-end\WebApplication1\bin\Debug\net6.0\Application.dll
+C:\Users\Bazan\Downloads\Reentrega-TP3-UI-Bazan_Geronimo\Back-end\WebApplication1\bin\Debug\net6.0\Data.dll
+C:\Users\Bazan\Downloads\Reentrega-TP3-UI-Bazan_Geronimo\Back-end\WebApplication1\bin\Debug\net6.0\Domain.dll
+C:\Users\Bazan\Downloads\Reentrega-TP3-UI-Bazan_Geronimo\Back-end\WebApplication1\bin\Debug\net6.0\Application.pdb
+C:\Users\Bazan\Downloads\Reentrega-TP3-UI-Bazan_Geronimo\Back-end\WebApplication1\bin\Debug\net6.0\Data.pdb
+C:\Users\Bazan\Downloads\Reentrega-TP3-UI-Bazan_Geronimo\Back-end\WebApplication1\bin\Debug\net6.0\Domain.pdb
+C:\Users\Bazan\Downloads\Reentrega-TP3-UI-Bazan_Geronimo\Back-end\WebApplication1\obj\Debug\net6.0\WebApplication1.csproj.AssemblyReference.cache
+C:\Users\Bazan\Downloads\Reentrega-TP3-UI-Bazan_Geronimo\Back-end\WebApplication1\obj\Debug\net6.0\WebApplication1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Bazan\Downloads\Reentrega-TP3-UI-Bazan_Geronimo\Back-end\WebApplication1\obj\Debug\net6.0\WebApplication1.AssemblyInfoInputs.cache
+C:\Users\Bazan\Downloads\Reentrega-TP3-UI-Bazan_Geronimo\Back-end\WebApplication1\obj\Debug\net6.0\WebApplication1.AssemblyInfo.cs
+C:\Users\Bazan\Downloads\Reentrega-TP3-UI-Bazan_Geronimo\Back-end\WebApplication1\obj\Debug\net6.0\WebApplication1.csproj.CoreCompileInputs.cache
+C:\Users\Bazan\Downloads\Reentrega-TP3-UI-Bazan_Geronimo\Back-end\WebApplication1\obj\Debug\net6.0\WebApplication1.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Bazan\Downloads\Reentrega-TP3-UI-Bazan_Geronimo\Back-end\WebApplication1\obj\Debug\net6.0\WebApplication1.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Bazan\Downloads\Reentrega-TP3-UI-Bazan_Geronimo\Back-end\WebApplication1\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\Bazan\Downloads\Reentrega-TP3-UI-Bazan_Geronimo\Back-end\WebApplication1\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\Bazan\Downloads\Reentrega-TP3-UI-Bazan_Geronimo\Back-end\WebApplication1\obj\Debug\net6.0\scopedcss\bundle\WebApplication1.styles.css
+C:\Users\Bazan\Downloads\Reentrega-TP3-UI-Bazan_Geronimo\Back-end\WebApplication1\obj\Debug\net6.0\WebApplication1.dll
+C:\Users\Bazan\Downloads\Reentrega-TP3-UI-Bazan_Geronimo\Back-end\WebApplication1\obj\Debug\net6.0\refint\WebApplication1.dll
+C:\Users\Bazan\Downloads\Reentrega-TP3-UI-Bazan_Geronimo\Back-end\WebApplication1\obj\Debug\net6.0\WebApplication1.pdb
+C:\Users\Bazan\Downloads\Reentrega-TP3-UI-Bazan_Geronimo\Back-end\WebApplication1\bin\Debug\net6.0\appsettings.json
+C:\Users\Bazan\Downloads\Reentrega-TP3-UI-Bazan_Geronimo\Back-end\WebApplication1\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\Bazan\Downloads\Reentrega-TP3-UI-Bazan_Geronimo\Back-end\WebApplication1\bin\Debug\net6.0\WebApplication1.exe
+C:\Users\Bazan\Downloads\Reentrega-TP3-UI-Bazan_Geronimo\Back-end\WebApplication1\bin\Debug\net6.0\WebApplication1.deps.json
+C:\Users\Bazan\Downloads\Reentrega-TP3-UI-Bazan_Geronimo\Back-end\WebApplication1\bin\Debug\net6.0\WebApplication1.runtimeconfig.json
+C:\Users\Bazan\Downloads\Reentrega-TP3-UI-Bazan_Geronimo\Back-end\WebApplication1\bin\Debug\net6.0\WebApplication1.dll
+C:\Users\Bazan\Downloads\Reentrega-TP3-UI-Bazan_Geronimo\Back-end\WebApplication1\bin\Debug\net6.0\WebApplication1.pdb
+C:\Users\Bazan\Downloads\Reentrega-TP3-UI-Bazan_Geronimo\Back-end\WebApplication1\obj\Debug\net6.0\WebApplication1.csproj.CopyComplete
+C:\Users\Bazan\Downloads\Reentrega-TP3-UI-Bazan_Geronimo\Back-end\WebApplication1\obj\Debug\net6.0\WebApplication1.genruntimeconfig.cache
+C:\Users\Bazan\Downloads\Reentrega-TP3-UI-Bazan_Geronimo\Back-end\WebApplication1\obj\Debug\net6.0\ref\WebApplication1.dll
+C:\Users\Bazan\Desktop\ULTIMA\Reentrega-TP3-UI-Bazan_Geronimo\Back-end\WebApplication1\bin\Debug\net6.0\appsettings.json
+C:\Users\Bazan\Desktop\ULTIMA\Reentrega-TP3-UI-Bazan_Geronimo\Back-end\WebApplication1\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\Bazan\Desktop\ULTIMA\Reentrega-TP3-UI-Bazan_Geronimo\Back-end\WebApplication1\bin\Debug\net6.0\WebApplication1.exe
+C:\Users\Bazan\Desktop\ULTIMA\Reentrega-TP3-UI-Bazan_Geronimo\Back-end\WebApplication1\bin\Debug\net6.0\WebApplication1.deps.json
+C:\Users\Bazan\Desktop\ULTIMA\Reentrega-TP3-UI-Bazan_Geronimo\Back-end\WebApplication1\bin\Debug\net6.0\WebApplication1.runtimeconfig.json
+C:\Users\Bazan\Desktop\ULTIMA\Reentrega-TP3-UI-Bazan_Geronimo\Back-end\WebApplication1\bin\Debug\net6.0\WebApplication1.dll
+C:\Users\Bazan\Desktop\ULTIMA\Reentrega-TP3-UI-Bazan_Geronimo\Back-end\WebApplication1\bin\Debug\net6.0\WebApplication1.pdb
+C:\Users\Bazan\Desktop\ULTIMA\Reentrega-TP3-UI-Bazan_Geronimo\Back-end\WebApplication1\bin\Debug\net6.0\Humanizer.dll
+C:\Users\Bazan\Desktop\ULTIMA\Reentrega-TP3-UI-Bazan_Geronimo\Back-end\WebApplication1\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\Bazan\Desktop\ULTIMA\Reentrega-TP3-UI-Bazan_Geronimo\Back-end\WebApplication1\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\Bazan\Desktop\ULTIMA\Reentrega-TP3-UI-Bazan_Geronimo\Back-end\WebApplication1\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Bazan\Desktop\ULTIMA\Reentrega-TP3-UI-Bazan_Geronimo\Back-end\WebApplication1\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Bazan\Desktop\ULTIMA\Reentrega-TP3-UI-Bazan_Geronimo\Back-end\WebApplication1\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Bazan\Desktop\ULTIMA\Reentrega-TP3-UI-Bazan_Geronimo\Back-end\WebApplication1\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\Bazan\Desktop\ULTIMA\Reentrega-TP3-UI-Bazan_Geronimo\Back-end\WebApplication1\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\Bazan\Desktop\ULTIMA\Reentrega-TP3-UI-Bazan_Geronimo\Back-end\WebApplication1\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+C:\Users\Bazan\Desktop\ULTIMA\Reentrega-TP3-UI-Bazan_Geronimo\Back-end\WebApplication1\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Bazan\Desktop\ULTIMA\Reentrega-TP3-UI-Bazan_Geronimo\Back-end\WebApplication1\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\Bazan\Desktop\ULTIMA\Reentrega-TP3-UI-Bazan_Geronimo\Back-end\WebApplication1\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Bazan\Desktop\ULTIMA\Reentrega-TP3-UI-Bazan_Geronimo\Back-end\WebApplication1\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Bazan\Desktop\ULTIMA\Reentrega-TP3-UI-Bazan_Geronimo\Back-end\WebApplication1\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Bazan\Desktop\ULTIMA\Reentrega-TP3-UI-Bazan_Geronimo\Back-end\WebApplication1\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\Bazan\Desktop\ULTIMA\Reentrega-TP3-UI-Bazan_Geronimo\Back-end\WebApplication1\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Bazan\Desktop\ULTIMA\Reentrega-TP3-UI-Bazan_Geronimo\Back-end\WebApplication1\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Bazan\Desktop\ULTIMA\Reentrega-TP3-UI-Bazan_Geronimo\Back-end\WebApplication1\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Bazan\Desktop\ULTIMA\Reentrega-TP3-UI-Bazan_Geronimo\Back-end\WebApplication1\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Bazan\Desktop\ULTIMA\Reentrega-TP3-UI-Bazan_Geronimo\Back-end\WebApplication1\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+C:\Users\Bazan\Desktop\ULTIMA\Reentrega-TP3-UI-Bazan_Geronimo\Back-end\WebApplication1\bin\Debug\net6.0\System.Drawing.Common.dll
+C:\Users\Bazan\Desktop\ULTIMA\Reentrega-TP3-UI-Bazan_Geronimo\Back-end\WebApplication1\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Bazan\Desktop\ULTIMA\Reentrega-TP3-UI-Bazan_Geronimo\Back-end\WebApplication1\bin\Debug\net6.0\System.Runtime.Caching.dll
+C:\Users\Bazan\Desktop\ULTIMA\Reentrega-TP3-UI-Bazan_Geronimo\Back-end\WebApplication1\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Bazan\Desktop\ULTIMA\Reentrega-TP3-UI-Bazan_Geronimo\Back-end\WebApplication1\bin\Debug\net6.0\System.Security.Permissions.dll
+C:\Users\Bazan\Desktop\ULTIMA\Reentrega-TP3-UI-Bazan_Geronimo\Back-end\WebApplication1\bin\Debug\net6.0\System.Windows.Extensions.dll
+C:\Users\Bazan\Desktop\ULTIMA\Reentrega-TP3-UI-Bazan_Geronimo\Back-end\WebApplication1\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Bazan\Desktop\ULTIMA\Reentrega-TP3-UI-Bazan_Geronimo\Back-end\WebApplication1\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Bazan\Desktop\ULTIMA\Reentrega-TP3-UI-Bazan_Geronimo\Back-end\WebApplication1\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Bazan\Desktop\ULTIMA\Reentrega-TP3-UI-Bazan_Geronimo\Back-end\WebApplication1\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Bazan\Desktop\ULTIMA\Reentrega-TP3-UI-Bazan_Geronimo\Back-end\WebApplication1\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Bazan\Desktop\ULTIMA\Reentrega-TP3-UI-Bazan_Geronimo\Back-end\WebApplication1\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Bazan\Desktop\ULTIMA\Reentrega-TP3-UI-Bazan_Geronimo\Back-end\WebApplication1\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Bazan\Desktop\ULTIMA\Reentrega-TP3-UI-Bazan_Geronimo\Back-end\WebApplication1\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\Bazan\Desktop\ULTIMA\Reentrega-TP3-UI-Bazan_Geronimo\Back-end\WebApplication1\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\Bazan\Desktop\ULTIMA\Reentrega-TP3-UI-Bazan_Geronimo\Back-end\WebApplication1\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\Bazan\Desktop\ULTIMA\Reentrega-TP3-UI-Bazan_Geronimo\Back-end\WebApplication1\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Bazan\Desktop\ULTIMA\Reentrega-TP3-UI-Bazan_Geronimo\Back-end\WebApplication1\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\Bazan\Desktop\ULTIMA\Reentrega-TP3-UI-Bazan_Geronimo\Back-end\WebApplication1\bin\Debug\net6.0\Application.dll
+C:\Users\Bazan\Desktop\ULTIMA\Reentrega-TP3-UI-Bazan_Geronimo\Back-end\WebApplication1\bin\Debug\net6.0\Data.dll
+C:\Users\Bazan\Desktop\ULTIMA\Reentrega-TP3-UI-Bazan_Geronimo\Back-end\WebApplication1\bin\Debug\net6.0\Domain.dll
+C:\Users\Bazan\Desktop\ULTIMA\Reentrega-TP3-UI-Bazan_Geronimo\Back-end\WebApplication1\bin\Debug\net6.0\Application.pdb
+C:\Users\Bazan\Desktop\ULTIMA\Reentrega-TP3-UI-Bazan_Geronimo\Back-end\WebApplication1\bin\Debug\net6.0\Data.pdb
+C:\Users\Bazan\Desktop\ULTIMA\Reentrega-TP3-UI-Bazan_Geronimo\Back-end\WebApplication1\bin\Debug\net6.0\Domain.pdb
+C:\Users\Bazan\Desktop\ULTIMA\Reentrega-TP3-UI-Bazan_Geronimo\Back-end\WebApplication1\obj\Debug\net6.0\WebApplication1.csproj.AssemblyReference.cache
+C:\Users\Bazan\Desktop\ULTIMA\Reentrega-TP3-UI-Bazan_Geronimo\Back-end\WebApplication1\obj\Debug\net6.0\WebApplication1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Bazan\Desktop\ULTIMA\Reentrega-TP3-UI-Bazan_Geronimo\Back-end\WebApplication1\obj\Debug\net6.0\WebApplication1.AssemblyInfoInputs.cache
+C:\Users\Bazan\Desktop\ULTIMA\Reentrega-TP3-UI-Bazan_Geronimo\Back-end\WebApplication1\obj\Debug\net6.0\WebApplication1.AssemblyInfo.cs
+C:\Users\Bazan\Desktop\ULTIMA\Reentrega-TP3-UI-Bazan_Geronimo\Back-end\WebApplication1\obj\Debug\net6.0\WebApplication1.csproj.CoreCompileInputs.cache
+C:\Users\Bazan\Desktop\ULTIMA\Reentrega-TP3-UI-Bazan_Geronimo\Back-end\WebApplication1\obj\Debug\net6.0\WebApplication1.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Bazan\Desktop\ULTIMA\Reentrega-TP3-UI-Bazan_Geronimo\Back-end\WebApplication1\obj\Debug\net6.0\WebApplication1.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Bazan\Desktop\ULTIMA\Reentrega-TP3-UI-Bazan_Geronimo\Back-end\WebApplication1\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\Bazan\Desktop\ULTIMA\Reentrega-TP3-UI-Bazan_Geronimo\Back-end\WebApplication1\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\Bazan\Desktop\ULTIMA\Reentrega-TP3-UI-Bazan_Geronimo\Back-end\WebApplication1\obj\Debug\net6.0\scopedcss\bundle\WebApplication1.styles.css
+C:\Users\Bazan\Desktop\ULTIMA\Reentrega-TP3-UI-Bazan_Geronimo\Back-end\WebApplication1\obj\Debug\net6.0\WebApplication1.csproj.CopyComplete
+C:\Users\Bazan\Desktop\ULTIMA\Reentrega-TP3-UI-Bazan_Geronimo\Back-end\WebApplication1\obj\Debug\net6.0\WebApplication1.dll
+C:\Users\Bazan\Desktop\ULTIMA\Reentrega-TP3-UI-Bazan_Geronimo\Back-end\WebApplication1\obj\Debug\net6.0\refint\WebApplication1.dll
+C:\Users\Bazan\Desktop\ULTIMA\Reentrega-TP3-UI-Bazan_Geronimo\Back-end\WebApplication1\obj\Debug\net6.0\WebApplication1.pdb
+C:\Users\Bazan\Desktop\ULTIMA\Reentrega-TP3-UI-Bazan_Geronimo\Back-end\WebApplication1\obj\Debug\net6.0\WebApplication1.genruntimeconfig.cache
+C:\Users\Bazan\Desktop\ULTIMA\Reentrega-TP3-UI-Bazan_Geronimo\Back-end\WebApplication1\obj\Debug\net6.0\ref\WebApplication1.dll
