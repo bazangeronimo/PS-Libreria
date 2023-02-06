@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Bazan\\Downloads\\MODAL-main\\TP3-PS9\\Reversionar\\Version23\\Back-end\\Application\\Application.csproj": {}
+    "C:\\Users\\Bazan\\Desktop\\PS-TP3-Libreria\\Back-end\\Application\\Application.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Bazan\\Downloads\\MODAL-main\\TP3-PS9\\Reversionar\\Version23\\Back-end\\Application\\Application.csproj": {
+    "C:\\Users\\Bazan\\Desktop\\PS-TP3-Libreria\\Back-end\\Application\\Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Bazan\\Downloads\\MODAL-main\\TP3-PS9\\Reversionar\\Version23\\Back-end\\Application\\Application.csproj",
+        "projectUniqueName": "C:\\Users\\Bazan\\Desktop\\PS-TP3-Libreria\\Back-end\\Application\\Application.csproj",
         "projectName": "Application",
-        "projectPath": "C:\\Users\\Bazan\\Downloads\\MODAL-main\\TP3-PS9\\Reversionar\\Version23\\Back-end\\Application\\Application.csproj",
+        "projectPath": "C:\\Users\\Bazan\\Desktop\\PS-TP3-Libreria\\Back-end\\Application\\Application.csproj",
         "packagesPath": "C:\\Users\\Bazan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Bazan\\Downloads\\MODAL-main\\TP3-PS9\\Reversionar\\Version23\\Back-end\\Application\\obj\\",
+        "outputPath": "C:\\Users\\Bazan\\Desktop\\PS-TP3-Libreria\\Back-end\\Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -32,8 +32,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Bazan\\Downloads\\MODAL-main\\TP3-PS9\\Reversionar\\Version23\\Back-end\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\Bazan\\Downloads\\MODAL-main\\TP3-PS9\\Reversionar\\Version23\\Back-end\\Domain\\Domain.csproj"
+              "C:\\Users\\Bazan\\Desktop\\PS-TP3-Libreria\\Back-end\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\Bazan\\Desktop\\PS-TP3-Libreria\\Back-end\\Domain\\Domain.csproj"
               }
             }
           }
@@ -82,14 +82,14 @@
         }
       }
     },
-    "C:\\Users\\Bazan\\Downloads\\MODAL-main\\TP3-PS9\\Reversionar\\Version23\\Back-end\\Domain\\Domain.csproj": {
+    "C:\\Users\\Bazan\\Desktop\\PS-TP3-Libreria\\Back-end\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Bazan\\Downloads\\MODAL-main\\TP3-PS9\\Reversionar\\Version23\\Back-end\\Domain\\Domain.csproj",
+        "projectUniqueName": "C:\\Users\\Bazan\\Desktop\\PS-TP3-Libreria\\Back-end\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\Users\\Bazan\\Downloads\\MODAL-main\\TP3-PS9\\Reversionar\\Version23\\Back-end\\Domain\\Domain.csproj",
+        "projectPath": "C:\\Users\\Bazan\\Desktop\\PS-TP3-Libreria\\Back-end\\Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\Bazan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Bazan\\Downloads\\MODAL-main\\TP3-PS9\\Reversionar\\Version23\\Back-end\\Domain\\obj\\",
+        "outputPath": "C:\\Users\\Bazan\\Desktop\\PS-TP3-Libreria\\Back-end\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

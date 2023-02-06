@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "mbVB97wK28Y+5fRSeP1LhcfBV25wmLu+05PE5o5wV9bfPGBqtqA4ZBiWhjCV24TEJKo66ld/WBCm/TlSg50Vbw==",
+  "dgSpecHash": "l3PVWN3VT7DYknNmiCzPK5WvdNBnEPvo0rvWXWNsfvMtuHE+gwEnGZCLs7gRl2xLo/3VLMv8ltiHH+KMlX0DCw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Bazan\\Downloads\\MODAL-main\\TP3-PS9\\Reversionar\\Version23\\Back-end\\Application\\Application.csproj",
+  "projectFilePath": "C:\\Users\\Bazan\\Desktop\\PS-TP3-Libreria\\Back-end\\Application\\Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Bazan\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Bazan\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",

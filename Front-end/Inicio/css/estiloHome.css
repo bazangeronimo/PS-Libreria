@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Vazirmatn&display=swap');
 *{
     margin: 0;
     padding: 0px;
@@ -175,11 +176,12 @@ footer {
 
 .flip-card {
     background-color: transparent;
-    width: 300px;
+    width: 260px;
     height: 350px;
     border: 1px solid #f1f1f1;
     perspective: 1000px; /* Remove this if you don't want the 3D effect */
-    margin-bottom:50px;
+    margin-bottom: 50px;
+    margin-right: 40px;
 }
   
   /* This container is needed to position the front and back side */
@@ -204,6 +206,7 @@ footer {
     height: 100%;
     -webkit-backface-visibility: hidden; /* Safari */
     backface-visibility: hidden;
+    border-radius: 15px;
   }
   
   /* Style the front side (fallback if image is missing) */
@@ -288,9 +291,22 @@ a{
     display: flex;
 }
 
+.cardDetalle {
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+    height: auto;
+    margin-right: 20px;
+	margin-bottom: 50px;
+	border-radius: 15px;
+	box-shadow: 7px 6px 6px rgb(111, 109, 109);
+    background-color: #184463;
+}
+
 .dividir{
     display: flex;
     height: 100%;
+    padding: 40px;
 }
 
 .imagen{
@@ -301,7 +317,38 @@ a{
 .imagen img{
     width: 100%;
     height: 100%;
+    border-radius: 15px;
 }
+
+.imagenDetalle{
+    width: 100%;
+    height: 100%;
+}
+#portada{
+    width: 100%;
+    height: auto;
+}
+
+.detallesLibro{
+    width: 90%;
+    margin: 25px 25px;
+    padding-left: 25px;
+    text-align: center;
+    line-height: 25px;
+}
+
+.titulo{
+    font-family: 'Vazirmatn', sans-serif;
+}
+
+
+.buton-card{
+    height: 20%;
+    display: flex;
+    padding: 30px;
+    justify-content: center;
+    align-items: center;
+} 
 
 /* .Detalle-Alquiler-Reserva{
     width: 50%;
@@ -343,6 +390,7 @@ a{
     justify-content: left;
     padding: 10px;
 }
+
 .modal {
     display: none;
     position: fixed;
@@ -351,15 +399,41 @@ a{
     top: 0;
     width: 100%;
     height: 100%;
+    padding-left: 90px;
     overflow: auto;
-    background-color: rgb(0,0,0);
-    background-color: rgba(0,0,0,0.4);
+    background-color: rgba(0,0,0,0.5);
   }
   
   .modal-content {
-    background-color: #fefefe;
+    background-color:#003053;
+    color: white;
+    font-size: 20px;
     margin: 15% auto;
     padding: 20px;
     border: 1px solid #888;
-    width: 80%;
+    border-radius: 15px;
+    width: 30%;
   }
+
+  .accept{
+    width: 150px;
+    background-color: #007bff;
+    color: white;
+    border-radius: 9px;
+    border-style: none;
+  }
+  .accept:hover{
+    background-color: rgb(10, 72, 138);
+  }
+
+  .cancel{
+    width: 150px;
+    background-color: #ff0037;
+    color: white;
+    border-radius: 9px;
+    border-style: none;
+  }
+  .cancel:hover{
+    background-color: rgb(61, 4, 4);
+  }
+  

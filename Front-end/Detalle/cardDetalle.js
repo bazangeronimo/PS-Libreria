@@ -1,13 +1,15 @@
-export const CardDetalle= ({titulo, autor, isbn, edicion, editorial, stock, imagen}) => {
+export const CardDetalle= (titulo, autor, isbn, edicion, editorial, stock, imagen) => {
+    if(stock>0)
     return `
-    <div class = "card">
+    <div class = "cardDetalle">
         <div class = "dividir">
-            <div class = "imagen">
-                <img src = ${imagen}>
+            <div class = "imagenDetalle">
+                <img id="portada" src = ${imagen} alt="imagen de portada de libro">
             </div>
-            <div class = "Detalle-Alquiler-Reserva">
-                <p class = "titulo"> Título: ${titulo} </p>
-                <p class = "titulo"> Autor: ${autor} </p>
+            <div class = "detallesLibro">
+                <h1 class = "titulo"> <strong>"${titulo}"</strong> </h1>
+                <h5 class = "titulo"> <strong>Autor: ${autor}</strong> </h5>
+                <hr/>
                 <p class = "texto"> ISBN: ${isbn} </p>
                 <p class = "texto"> Editorial: ${editorial} </p>
                 <p class = "texto"> Edición: ${edicion} </p>
@@ -16,11 +18,19 @@ export const CardDetalle= ({titulo, autor, isbn, edicion, editorial, stock, imag
         </div>
         <div class = "buton-card">
             <div class = "boton-centro">
-                <button id="myBtn" type="button" class="btn btn-success accion" >Alquilar</button>
+                <div id="alquilar" type="button" class="btn btn-success accion" >Alquilar</div>
                 <div class="modal">
                   <div class="modal-content">
-                    <p> Desea alquilar el libro "${titulo}"<p>
+                    <p> ¿Desea alquilar el libro "${titulo}"?<p>
                     <button id="alquilar" class="accept" onclick="javascript:window.localStorage.setItem('isbn',${isbn})">Aceptar</button>
+                    <button class="cancel">Cancelar</button>
+                  </div>
+                </div>
+                <div id="reservar" type="button" class="btn btn-success accion" >Reservar</div>
+                <div class="modal">
+                  <div class="modal-content">
+                    <p> ¿Desea reservar el libro "${titulo}"?<p>
+                    <button id="reservar" class="accept" onclick="javascript:window.localStorage.setItem('isbn',${isbn})">Aceptar</button>
                     <button class="cancel">Cancelar</button>
                   </div>
                 </div>
@@ -28,8 +38,47 @@ export const CardDetalle= ({titulo, autor, isbn, edicion, editorial, stock, imag
         </div>
     </div>
    `
+   else
+   return `
+   <div class = "cardDetalle">
+       <div class = "dividir">
+           <div class = "imagenDetalle">
+               <img id="portada" src = ${imagen} alt="imagen de portada de libro">
+           </div>
+           <div class = "detallesLibro">
+               <h1 class = "titulo"> <strong>"${titulo}"</strong> </h1>
+               <h5 class = "titulo"> <strong>Autor: ${autor}</strong> </h5>
+               <hr/>
+               <p class = "texto"> ISBN: ${isbn} </p>
+               <p class = "texto"> Editorial: ${editorial} </p>
+               <p class = "texto"> Edición: ${edicion} </p>
+           </div>
+       </div>
+       <div class = "buton-card">
+           <div class = "boton-centro">
+               <div id="agotado" class="btn btn-danger accion" >Agotado</div>
+           </div>
+       </div>
+   </div>
+  `
+   
 }
 export default CardDetalle;
+
+
+/* <div id="alquilar" type="button" class="btn btn-success accion" >Reservar</div>
+<div class="modal">
+  <div class="modal-content">
+    <p> ¿Desea reservar el libro "${titulo}"?<p>
+    <button id="reservarr" class="acceptt" onclick="javascript:window.localStorage.setItem('isbn',${isbn})">Aceptar</button>
+    <button class="cancel">Cancelar</button>
+  </div>
+</div> */
+
+
+
+
+//<button id="reservar" type="button" class="btn btn-primary accion" onclick="javascript:window.localStorage.setItem('isbn',${isbn})">Reservar</button>    
 
 // export const CardDetalle= ({titulo, autor, isbn, edicion, editorial, stock, imagen}) => {
 //     return `

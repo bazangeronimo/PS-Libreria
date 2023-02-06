@@ -1,39 +1,19 @@
-import fetchDetalle from "./fetchDetalle.js"
+// import fetchDetalle from "./fetchDetalle.js"
+// import ArrayLibros from "../Inicio/js/fetchLibros.js"
+// import CardStock from "../Inicio/js/cardStock.js"
 import CardDetalle from './cardDetalle.js'
-import {Alquiler} from "./fetchDetalle.js"
-import ArrayLibros from "../Inicio/js/fetchLibros.js"
-import CardStock from "../Inicio/js/cardStock.js"
-
+import {fetchDetalle, Alquiler} from "./fetchDetalle.js"
 window.onload = async () => {
-
-    const isbn = window.location.pathname.split("/")
-    // console.log(isbn)
-    const nbsi = isbn[2]
-    // console.log(typeof(nbsi))
+    const nbsi = window.location.pathname.split("/")[2]
     const libro = document.getElementById("app");
     const result = await fetchDetalle(nbsi);
-    // console.log(result)
-    libro.innerHTML += CardDetalle(result.message[0]);
+    const {titulo, autor, isbn, edicion, editorial, stock, imagen} =result.message[0]
+    window.localStorage.setItem('isbn', isbn)
+    libro.innerHTML += CardDetalle(titulo, autor, isbn, edicion, editorial, stock, imagen);
 
     const botonesAccion=document.querySelectorAll(".accion");
     agregarEvento(botonesAccion);
 
-    document.getElementById("buscarBoton").onclick = async(e) => {
-        e.preventDefault();
-        const inputTitulo = document.barrasDeBusqueda.buscarTitulo.value;
-        const inputAutor = document.barrasDeBusqueda.buscarAutor.value;
-        
-        await buscarLibros(inputTitulo, inputAutor);
-        const botonesAccion=document.querySelectorAll(".accion");
-        agregarEvento(botonesAccion);
-    }
-}
-
-async function buscarLibros(inputTitulo, inputAutor)
-{
-    const buscar = await ArrayLibros.libros(null, inputTitulo, inputAutor);
-    let imprimir = buscar.libros.map(libro => CardStock(libro.titulo, libro.autor, libro.isbn, libro.edicion, libro.stock, libro.imagen)).join("");
-    document.getElementById("app").innerHTML = imprimir; 
 }
 
 //post
@@ -41,11 +21,12 @@ async function crearAlquiler()
 {
     const fecha = new Date();
     const DtoAlquiler = {
-        cliente:1,
-        isbn: localStorage.getItem("isbn"),
-        fechaAlquiler : fecha.toJSON(),
+        cliente: 1,
+        isbn: localStorage.getItem('isbn'),
+        fechaAlquiler: fecha
     }
     await Alquiler(DtoAlquiler);
+    actualizarDatos();
 }
 
 async function crearReserva()
@@ -57,46 +38,53 @@ async function crearReserva()
         fechaReserva : fecha.toJSON()
     }
     await Alquiler(DtoReserva);
+    actualizarDatos();
 }
 
+async function actualizarDatos() {
+    const nbsi = window.location.pathname.split("/")[2];
+    const result = await fetchDetalle(nbsi);
+    const {titulo, autor, isbn, edicion, editorial, stock, imagen} = result.message[0];
+    const libro = document.getElementById("app");
+    libro.innerHTML = CardDetalle(titulo, autor, isbn, edicion, editorial, stock, imagen);
+  }
 
-function showModal() {
+
+function mostrarModalAlquilar(accion) {
     // Obtiene el botón y el modal
-    var btn = document.getElementById("myBtn");
-    var modal = document.querySelector(".modal");
-  
+    let modal = document.querySelector(".modal");
     // Obtiene los botones de aceptar y cancelar
-    var acceptBtn = document.querySelector(".accept");
-    var cancelBtn = document.querySelector(".cancel");
-  
-    // Cuando se haga clic en el botón, muestra el modal
-    btn.onclick = function() {
-      modal.style.display = "block";
-    }
-  
+    let acceptBtn = document.querySelector(".accept");
+    let cancelBtn = document.querySelector(".cancel");
+    modal.style.display = "block";
     // Cuando se haga clic en el botón de aceptar, muestra un mensaje
     acceptBtn.onclick = function() {
-        crearAlquiler();
-        location.reload ();
-        //   alert("Has aceptado");
-      modal.style.display = "none";
+        switch (accion) 
+        {
+            case "alquilar":
+                crearAlquiler();
+                break;
+            case "reservar":
+                crearReserva();
+                break;
+        }
     }
-  
     // Cuando se haga clic en el botón de cancelar, cierra el modal
     cancelBtn.onclick = function() {
-      modal.style.display = "none";
+    //    modal.style.display == "none"
+        modal.style.display = "none";
+        const botonesAccion = document.querySelectorAll(".accion");
+        agregarEvento(botonesAccion);
     }
-  
     // Cuando se haga clic fuera del modal, cierra el modal
     window.onclick = function(event) {
       if (event.target == modal) {
         modal.style.display = "none";
       }
+      const botonesAccion = document.querySelectorAll(".accion");
+      agregarEvento(botonesAccion);
     }
-  }
-
-
-
+}
 
 function agregarEvento(botones) {
 	botones.forEach((boton) =>
@@ -104,24 +92,46 @@ function agregarEvento(botones) {
 			const accion = boton.id;
 			switch (accion) 
             {
-				case "myBtn":
-                    showModal();
-					// crearAlquiler();
-					// alert("Libro alquilado correctamente.");
-                    // location.reload ();
+				case "alquilar":
+                    mostrarModalAlquilar("alquilar");
                     break;
-				case "reservar":
-                    crearReserva();
-                    alert("Libro reservado correctamente.");
-                    location.reload ();
-                break;
-				case "agotado":
-                    alert("Libro actualmente sin stock.")
-                break;
-				default:
-					alert("error");
-                break;
-			}
-		})
-	);
+                case "reservar":
+                    mostrarModalAlquilar("reservar");
+                    break;
+            }
+        })
+    );
 }
+
+
+// async function buscarLibros(inputTitulo, inputAutor)
+// {
+//     const buscar = await ArrayLibros.libros(null, inputTitulo, inputAutor);
+//     let imprimir = buscar.libros.map(libro => CardStock(libro.titulo, libro.autor, libro.isbn, libro.edicion, libro.stock, libro.imagen)).join("");
+//     document.getElementById("app").innerHTML = imprimir; 
+// }
+
+
+ // const botonesAccion=document.querySelectorAll(".accion");
+    // agregarEvento(botonesAccion);
+    // document.getElementById("buscarBoton").onclick = async(e) => {
+    //     e.preventDefault();
+    //     const inputTitulo = document.barrasDeBusqueda.buscarTitulo.value;
+    //     const inputAutor = document.barrasDeBusqueda.buscarAutor.value;
+    //     await buscarLibros(inputTitulo, inputAutor);
+    //     const botonesAccion=document.querySelectorAll(".accion");
+    //     agregarEvento(botonesAccion);
+    // }
+
+
+    // async function refrescarCard(){
+    //     let libro = document.getElementById("app");
+    //     let algo = localStorage.getItem('isbn');
+    
+    //     console.log(algo)
+    //     let result = await fetchDetalle(algo);
+    //     let {titulo, autor, isbn, edicion, editorial, stock, imagen} = result.message[0]
+    //     console.log(result.message[0])
+    //     // libro.innerHTML = "";
+    //     libro.innerHTML = CardDetalle(titulo, autor, isbn, edicion, editorial, stock, imagen);
+    // }
