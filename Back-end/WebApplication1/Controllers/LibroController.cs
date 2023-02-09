@@ -28,6 +28,25 @@ namespace Api.Controllers
                 return BadRequest(ex.Message);
             }
         }
+        //GetLibrosByInput
+
+        [HttpGet("libro")]
+        public IActionResult GetLibrosByAutorTituloIsbn([FromQuery] string? input)
+        {
+            try
+            {
+                var response = serviceLibro.GetLibrosByInput(input);
+                if (!response.succes)
+                {
+                    return new JsonResult(new { Error = response.content }) { StatusCode = response.StatusCode };
+                }
+                return new JsonResult(new { Message = response.content, Libros = response.objects }) { StatusCode = response.StatusCode };
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
+        }
 
         [HttpHead("libros/{id}")]
         public IActionResult GetLibros([FromQuery] int stock, string id)
@@ -51,6 +70,16 @@ namespace Api.Controllers
         public IActionResult GetLibrosByIsbn([FromQuery] string isbn)
         {
             var response = serviceLibro.GetLibrosByIsbn(isbn);
+            if (!response.succes)
+            {
+                return new JsonResult(new { Error = response.content }) { StatusCode = response.StatusCode };
+            }
+            return new JsonResult(new { Message = response.arrList }) { StatusCode = response.StatusCode };
+        }
+        [HttpGet("libros/autores")]
+        public IActionResult GetLibroAutor([FromQuery] string autor)
+        {
+            var response = serviceLibro.GetLibrosByLibroAutor(autor);
             if (!response.succes)
             {
                 return new JsonResult(new { Error = response.content }) { StatusCode = response.StatusCode };

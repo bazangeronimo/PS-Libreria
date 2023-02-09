@@ -4,7 +4,11 @@ namespace WebApplication1.Application.Interfaces.IServices
     public interface ILibroServices
     {
         public Response GetLibrosByFiltro(bool? stock, string? autor, string? titulo);
+        //public Response GetLibrosByAutorTituloIsbn(string? autor, string? titulo, string? isbn);
         public Response GetLibrosByStock(int stock, string isbn);
         public Response GetLibrosByIsbn(string? isbn);
+        public Response GetLibrosByInput(string? input);
+        public Response GetLibrosByLibroAutor(string? autor);
+
     }
 }

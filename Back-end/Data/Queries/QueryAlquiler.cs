@@ -11,7 +11,7 @@ namespace WebApplication1.Data.Queries
         {
             this.context = contex;
         }
-        public Alquiler? AlquilerByClienteIdAndIsbn(int clienteId, string isbn)
+        public Alquiler? ReservaByClienteIdAndIsbn(int clienteId, string isbn)
         {
             return context.Alquileres.Where(a => a.ClienteId == clienteId && a.ISBN == isbn && a.EstadoDeAlquilerId == 1).FirstOrDefault();
         }
@@ -25,7 +25,7 @@ namespace WebApplication1.Data.Queries
         }
         public List<Alquiler> GetAlquileresByClienteId(int id)
         {
-            return context.Alquileres.Where(a => a.ClienteId == id).ToList();
+            return context.Alquileres.Where(a => a.ClienteId == id && a.EstadoDeAlquilerId ==2).ToList();
         }
         public List<Alquiler> GetReservasByClienteId(int id)
         {

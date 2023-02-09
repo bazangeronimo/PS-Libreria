@@ -40,4 +40,3 @@ export const CardAlquileres = (isbn, titulo, autor, edicion, editorial, fecha_de
     `
 }
 export default CardAlquileres;
-

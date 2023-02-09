@@ -15,8 +15,6 @@ ArrayLibros.libros = async(stock, titulo, autor) => {
         console.log(error);
     }
 }
-export default ArrayLibros;
-
 
 export async function Alquiler(DtoAlquilerReserva) {
     const url = "https://localhost:7113/api/alquiler"   
@@ -44,11 +42,21 @@ export async function Alquiler(DtoAlquilerReserva) {
     }
 }
 
-
-
-
-
-
-
-
-
+export const ArrayLibro = {}
+ArrayLibro.libros = async(input) => {
+    const config = {
+        method: 'GET',
+        headers:{
+            'Content-Type':'application/json'
+        }
+    }
+    ;
+    try{
+        const response = await fetch (`https://localhost:7113/api/libro?input=${input}`, config);
+        const result = await response.json();
+        return result; 
+    }catch(error){
+        console.log(error);
+    }
+}
+export default {ArrayLibros,ArrayLibro};

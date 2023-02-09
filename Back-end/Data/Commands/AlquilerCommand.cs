@@ -43,7 +43,7 @@ namespace WebApplication1.Data.Commands
         public Response CreateReserva(AlquilerDTO alquilerDto)
         {
             Response response = new(true, " La reserva se ha realizado correctamente");
-            response.StatusCode = 200;
+            response.StatusCode = 201;
             try
             {
                 Libro libro = context.Libros.Where(l => l.ISBN == alquilerDto.ISBN).First();
@@ -71,7 +71,7 @@ namespace WebApplication1.Data.Commands
         public Response UpdateReservaAlquiler(Alquiler updateReservaAlquiler)
         {
             Response response = new(true, " El estado reserva fue actualizado al estado alquiler correctamente.");
-            response.StatusCode = 200;
+            response.StatusCode = 201;
             try
             {
                 updateReservaAlquiler.EstadoDeAlquilerId = 2;

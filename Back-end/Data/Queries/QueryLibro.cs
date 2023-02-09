@@ -14,6 +14,10 @@ namespace WebApplication1.Data.Queries
         {
             return context.Libros.Find(isbn);
         }
+        public List<Libro> BuscarAutor(string autor)
+        {
+            return context.Libros.Where(aut => aut.Autor == autor).ToList();
+        }
         public Libro GetLibroByIsbn(string isbn)
         {
             return context.Libros.Where(l => l.ISBN == isbn).FirstOrDefault();
@@ -83,6 +87,23 @@ namespace WebApplication1.Data.Queries
                 }
                 return context.Libros.Where(lib => lib.Stock == 0).ToList();
             }
+        }
+
+
+        public List<Libro> GetLibrosByInput(string input)
+        {
+            if(input != null)
+            {
+                return context.Libros.Where(lib => string.IsNullOrEmpty(input) || lib.Autor.Contains(input) ||
+                                                    string.IsNullOrEmpty(input) || lib.Titulo.Contains(input) ||
+                                                    string.IsNullOrEmpty(input) || lib.ISBN.Contains(input)).ToList();
+            }
+            return context.Libros.ToList();
+        }
+
+        public List<Libro> ListaAutor(string autor)
+        {
+            return context.Libros.Where(l => l.Autor == autor).ToList();
         }
     }
 }

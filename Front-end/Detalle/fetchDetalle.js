@@ -44,6 +44,22 @@ export async function Alquiler(DtoAlquilerReserva) {
     }
 }
 
+export const fetchAutores= async (autor) => {
+    const config = {
+        method: 'GET',
+        headers:{
+            'Content-Type':'application/json'
+        }
+    }
+    ;
+    try {
+        const response = await fetch(`https://localhost:7113/api/libros/isbn?isbn=${autor}`, config);
+        const result = await response.json();
+        return result;
+    }catch(error){
+        console.log(error);
+    }
+}
 
 
 

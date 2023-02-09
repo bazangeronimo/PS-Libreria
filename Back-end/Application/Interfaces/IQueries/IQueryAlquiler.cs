@@ -3,7 +3,7 @@ namespace WebApplication1.Application.Interfaces.IQueries
 {
     public interface IQueryAlquiler
     {
-        public Alquiler? AlquilerByClienteIdAndIsbn(int clienteId, string isbn);
+        public Alquiler? ReservaByClienteIdAndIsbn(int clienteId, string isbn);
         public Alquiler? AlquilerByCliente(int clienteId);
         public Alquiler? ReservaByCliente(int clienteId);
         public List<Alquiler> GetAlquileresByClienteId(int id);
