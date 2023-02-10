@@ -92,13 +92,6 @@ namespace WebApplication1.Application.Services
                 response.StatusCode = 400;
                 return response;
             }
-            //if (clienteQuery.GetClientePorId(updateReservaAlquiler.cliente) == null)
-            //{
-            //    response.succes = false;
-            //    response.content = " El cliente ingresado no existe en la base de datos";
-            //    response.StatusCode = 400;
-            //    return response;
-            //}
             if (!ValidarCliente(updateReservaAlquiler.cliente))
             {
                 response.succes = false;
@@ -106,15 +99,6 @@ namespace WebApplication1.Application.Services
                 response.StatusCode = 400;
                 return response;
             }
-
-
-            //if (libroQuery.BuscarLibro(updateReservaAlquiler.ISBN) == null)
-            //{
-            //    response.succes = false;
-            //    response.content = " El ISBN ingresado no existe en la base de datos";
-            //    response.StatusCode = 400;
-            //    return response;
-            //}
             if (!ValidarLibro(updateReservaAlquiler.ISBN))
             {
                 response.succes = false;

@@ -15,6 +15,7 @@ ArrayReservas.reservas = async() => {
         return fin; 
     }catch(error){
         console.log(error);
+        
     }
 }
 export default ArrayReservas;

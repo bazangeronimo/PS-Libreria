@@ -1,7 +1,6 @@
 import ArrayReservas from "./fetchReservas.js"
 import {Reserva} from "./fetchReservas.js"
 import CardReservas from "./cardReservas.js"
-
 window.onload = async() => {
     await cargarReservas();
     const botonesAccion=document.querySelectorAll(".accion");
@@ -11,9 +10,17 @@ window.onload = async() => {
 async function cargarReservas()
 {
     const libros = await ArrayReservas.reservas();
-    let inicio = libros.message.map(reserva => CardReservas(reserva.isbn, reserva.titulo, reserva.autor, reserva.edicion, 
-                                                            reserva.editorial, reserva.fechaReserva, reserva.descripcion)).join('');
-    document.getElementById("tabla-reservas").innerHTML = inicio;
+    console.log(libros)
+    if(Array.isArray(libros.message))
+    {
+        let inicio = libros.message.map(reserva => CardReservas(reserva.isbn, reserva.titulo, reserva.autor, reserva.edicion, 
+                                        reserva.editorial, reserva.fechaReserva, reserva.descripcion)).join('');
+        document.getElementById("tabla-reservas").innerHTML = inicio;
+    }
+    else{
+        let inicio = "<span>Actualmente no se registran reservas.</span>" 
+        document.getElementById("tabla-reservas").innerHTML = inicio;
+    }
 }
 
 async function updateAlquiler()
@@ -23,18 +30,13 @@ async function updateAlquiler()
         isbn: localStorage.getItem('isbn'),
     }
     await Reserva(DtoAlquiler);
-    const libros = await ArrayReservas.reservas();
-    let inicio = libros.message.map(reserva => CardReservas(reserva.isbn, reserva.titulo, reserva.autor, reserva.edicion, 
-                                                            reserva.editorial, reserva.fechaReserva, reserva.descripcion)).join('');
-    document.getElementById("tabla-reservas").innerHTML = inicio;
-}
+    cargarReservas();
 
+}
 function mostrarModalAlquilar(accion) {
-    // Obtiene el botón y el modal
     let modalAlquiler = document.querySelector(".modalAlquiler");
     // Obtiene los botones de aceptar y cancelar
     let acceptBtnAlquiler = document.querySelector(".accept");
-    
     if(accion == "reservaalquilar"){
         modalAlquiler.style.display = "block";
         acceptBtnAlquiler.onclick = function() 
@@ -42,15 +44,14 @@ function mostrarModalAlquilar(accion) {
             updateAlquiler();
             modalAlquiler.style.display ="none";
         }
+
         let cancelBtnAlquiler = document.querySelector(".cancel");
         cancelBtnAlquiler.onclick = function() 
         {
-            //modal.style.display == "none"
             modalAlquiler.style.display = "none";
             const botonesAccion = document.querySelectorAll(".accion");
             agregarEvento(botonesAccion);
         }
-            // Cuando se haga clic fuera del modal, cierra el modal
         window.onclick = function(event) 
         {
           if (event.target == modalAlquiler) {
@@ -61,6 +62,7 @@ function mostrarModalAlquilar(accion) {
         }
     }
 }
+
 function agregarEvento(botones) {
 	botones.forEach((boton) =>
 		boton.addEventListener("click", () => {

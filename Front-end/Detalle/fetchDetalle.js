@@ -8,9 +8,7 @@ export const fetchDetalle = async (isbn) => {
     ;
     try {
         const response = await fetch(`https://localhost:7113/api/libros/isbn?isbn=${isbn}`, config);
-        //+  isbn
         const result = await response.json();
-        // console.log(result);
         return result;
     }catch(error){
         console.log(error);

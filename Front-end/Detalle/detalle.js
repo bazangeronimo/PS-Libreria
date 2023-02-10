@@ -58,62 +58,32 @@ async function actualizarDatos() {
     libro.innerHTML = CardDetalle(titulo, autor, isbn, edicion, editorial, stock, imagen);
 }
 
-function mostrarModalAlquilar(accion) {
-    // Obtiene el botón y el modal
+function mostrarModalAlquilar(accion){
     let modalAlquiler = document.querySelector(".modalAlquiler");
-    let modalReserva = document.querySelector(".modalReserva");
-    // Obtiene los botones de aceptar y cancelar
     let acceptBtnAlquiler = document.querySelector(".accept");
     let cancelBtnAlquiler = document.querySelector(".cancel");
-    let acceptBtnReserva = document.querySelector(".acceptt");
-    let cancelBtnReserva = document.querySelector(".cancell");
-    if(accion == "alquilar"){
-        modalAlquiler.style.display = "block";
-        acceptBtnAlquiler.onclick = function() 
-        {
-            crearAlquiler();
-            modalAlquiler.style.display ="none";
-        }
-        cancelBtnAlquiler.onclick = function() 
-        {
-            modalAlquiler.style.display = "none";
-            const botonesAccion = document.querySelectorAll(".accion");
-            agregarEvento(botonesAccion);
-        }
-            // Cuando se haga clic fuera del modal, cierra el modal
-        window.onclick = function(event) 
-        {
-          if (event.target == modalAlquiler) {
-            modalAlquiler.style.display = "none";
-          }
-          const botonesAccion = document.querySelectorAll(".accion");
-          agregarEvento(botonesAccion);
-        }
+    modalAlquiler.style.display = "block";
+    acceptBtnAlquiler.onclick = function() 
+    {
+        accion == "alquilar" ? crearAlquiler() : crearReserva();
+        modalAlquiler.style.display ="none";
     }
-    if(accion == "reservar"){
-        modalReserva.style.display = "block";
-        acceptBtnReserva.onclick = function() 
-        {
-            crearReserva();
-            modalReserva.style.display ="none";
+    cancelBtnAlquiler.onclick = function() 
+    {
+        modalAlquiler.style.display = "none";
+        const botonesAccion = document.querySelectorAll(".accion");
+        agregarEvento(botonesAccion);
+    }
+    window.onclick = function(event) 
+    {
+        if (event.target == modalAlquiler) {
+           modalAlquiler.style.display = "none";
         }
-        cancelBtnReserva.onclick = function() 
-        {
-            modalReserva.style.display = "none";
-            const botonesAccion = document.querySelectorAll(".accion");
-            agregarEvento(botonesAccion);
-        }
-            // Cuando se haga clic fuera del modal, cierra el modal
-        window.onclick = function(event) 
-        {
-            if (event.target == modalReserva) {
-                modalReserva.style.display = "none";
-            }
-            const botonesAccion = document.querySelectorAll(".accion");
-            agregarEvento(botonesAccion);
-        }
+        const botonesAccion = document.querySelectorAll(".accion");
+        agregarEvento(botonesAccion);
     }
 }
+
 function agregarEvento(botones) {
 	botones.forEach((boton) =>
 		boton.addEventListener("click", () => {
