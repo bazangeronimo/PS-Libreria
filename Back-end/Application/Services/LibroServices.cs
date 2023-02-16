@@ -67,13 +67,13 @@ namespace WebApplication1.Application.Services
         public Response GetLibrosByIsbn(string? isbn)
         {
             ArrayList array = new();
-            var response = new Response(true, "El alquiler fue encontrado");
+            var response = new Response(true, "El ISBN ingresado fue encontrado");
             try
             {
                 if (!ValidarLibro(isbn))
                 {
                     response.succes = false;
-                    response.content = " El Libro ingresado no existe en la base de datos.";
+                    response.content = " El ISBN ingresado no existe en la base de datos.";
                     response.StatusCode = 400;
                     return response;
                 }

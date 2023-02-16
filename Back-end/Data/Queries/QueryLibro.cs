@@ -22,13 +22,19 @@ namespace WebApplication1.Data.Queries
         {
             return context.Libros.Where(l => l.ISBN == isbn).FirstOrDefault();
         }
+
         public int? Stock(string isbn)
         {
             return context.Libros.Where(l => l.ISBN.Equals(isbn)).Select(s => s.Stock).FirstOrDefault();
         }
         public List<Libro> ListaLibros(string isbn)
         {
-            return context.Libros.Where(l => l.ISBN == isbn).ToList();
+            if(isbn != null)
+            {
+                return context.Libros.Where(l => l.ISBN == isbn).ToList();
+            }
+            return context.Libros.ToList();
+
         }
         public List<Libro> GetLibrosByFiltros(bool? stock, string autor, string titulo)
         {
