@@ -1,5 +1,5 @@
-import ArrayAlquileres from "./fetchAlquileres.js"
-import CardAlquileres from "./cardAlquileres.js"
+import {ArrayAlquileres} from "../Services/serviceAlquiler.js"
+import CardAlquileres from "./Components/cardAlquileres.js"
 window.onload = async() => {
     let alquileres = await ArrayAlquileres.alquileres();
     console.log(alquileres)

@@ -1,0 +1,39 @@
+.contenedor{
+    display: flex;
+}
+
+.nombre
+{
+    width: 100%;
+    text-align: center;
+    background-color: white;
+}
+
+.nombre .title{
+    padding: 40px;
+}
+
+a{
+	text-decoration: none;
+	color: white;
+}
+
+.alquileres{
+    color: #003053;
+}
+
+table thead{
+    
+	background-color: #003053;
+	color: white;
+}
+
+.container-fluid a{
+    text-decoration: none;
+    color:  #003053;
+}
+.boton-inicio{
+    text-align: left;
+    justify-content: left;
+    padding: 10px;
+}

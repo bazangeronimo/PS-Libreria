@@ -1,6 +1,4 @@
-const url = "https://localhost:7113/api/alquiler/reservas/cliente/1"
-const ArrayReservas = {}
-
+export const ArrayReservas = {}
 ArrayReservas.reservas = async() => {
     const config ={
         method: 'GET',
@@ -10,7 +8,7 @@ ArrayReservas.reservas = async() => {
     }
     ;
     try{
-        const respuesta = await fetch (url, config);
+        const respuesta = await fetch ("https://localhost:7113/api/alquiler/reservas/cliente/1", config);
         const fin = await respuesta.json();
         return fin; 
     }catch(error){
@@ -18,10 +16,8 @@ ArrayReservas.reservas = async() => {
         
     }
 }
-export default ArrayReservas;
 
 export async function Reserva(DtoAlquiler) {
-    const url = "https://localhost:7113/api/alquiler"   
     const config = {
         method: 'PUT',
         headers:{
@@ -33,7 +29,7 @@ export async function Reserva(DtoAlquiler) {
     }
     ;
     try{
-        const response = await fetch (url, config);
+        const response = await fetch ("https://localhost:7113/api/alquiler", config);
         console.log(response);
         if(response.status !== 201)
         {
@@ -45,3 +41,4 @@ export async function Reserva(DtoAlquiler) {
         console.log(error);
     }
 }
+export default {ArrayReservas, Reserva} ;

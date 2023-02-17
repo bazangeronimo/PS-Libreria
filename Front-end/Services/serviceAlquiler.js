@@ -1,6 +1,6 @@
-export const ArrayLibros = {}
-ArrayLibros.libros = async(stock, titulo, autor) => {
-    const config = {
+export const ArrayAlquileres = {}
+ArrayAlquileres.alquileres = async() => {
+    const config ={
         method: 'GET',
         headers:{
             'Content-Type':'application/json'
@@ -8,13 +8,33 @@ ArrayLibros.libros = async(stock, titulo, autor) => {
     }
     ;
     try{
-        const response = await fetch (`https://localhost:7113/api/libros?autor=${autor}&titulo=${titulo}`, config);
+        const response = await fetch ("https://localhost:7113/api/alquiler/cliente/1", config);
         const result = await response.json();
         return result; 
     }catch(error){
         console.log(error);
     }
 }
+
+const ArrayReservas = {}
+ArrayReservas.reservas = async() => {
+    const config ={
+        method: 'GET',
+        headers:{
+            'Content-Type':'application/json'
+        }
+    }
+    ;
+    try{
+        const respuesta = await fetch ("https://localhost:7113/api/alquiler/reservas/cliente/1", config);
+        const fin = await respuesta.json();
+        return fin; 
+    }catch(error){
+        console.log(error);
+        
+    }
+}
+export default {ArrayAlquileres,ArrayReservas};
 
 export async function Alquiler(DtoAlquilerReserva) {
     const url = "https://localhost:7113/api/alquiler"   
@@ -42,21 +62,27 @@ export async function Alquiler(DtoAlquilerReserva) {
     }
 }
 
-export const ArrayLibro = {}
-ArrayLibro.libros = async(input) => {
+export async function Reserva(DtoAlquiler) {
     const config = {
-        method: 'GET',
+        method: 'PUT',
         headers:{
             'Content-Type':'application/json'
-        }
+        },
+        body: JSON.stringify(
+            DtoAlquiler
+        )
     }
     ;
     try{
-        const response = await fetch (`https://localhost:7113/api/libro?input=${input}`, config);
+        const response = await fetch ("https://localhost:7113/api/alquiler", config);
+        console.log(response);
+        if(response.status !== 201)
+        {
+            alert("Error al actualizar el estado.");
+        }
         const result = await response.json();
         return result; 
     }catch(error){
         console.log(error);
     }
 }
-export default {ArrayLibros,ArrayLibro};

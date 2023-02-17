@@ -1,15 +1,14 @@
-import ArrayReservas from "./fetchReservas.js"
-import {Reserva} from "./fetchReservas.js"
-import CardReservas from "./cardReservas.js"
+import {ArrayReservas, Reserva} from "../Services/serviceReserva.js"
+import CardReservas from "./Components/cardReservas.js"
 window.onload = async() => {
     await cargarReservas();
-    const botonesAccion=document.querySelectorAll(".accion");
+    let botonesAccion=document.querySelectorAll(".accion");
     agregarEvento(botonesAccion);
 }
 
 async function cargarReservas()
 {
-    const libros = await ArrayReservas.reservas();
+    let libros = await ArrayReservas.reservas();
     console.log(libros)
     if(Array.isArray(libros.message))
     {
@@ -25,7 +24,7 @@ async function cargarReservas()
 
 async function updateAlquiler()
 {
-    const DtoAlquiler = {
+    let DtoAlquiler = {
         cliente: 1,
         isbn: localStorage.getItem('isbn'),
     }
@@ -33,6 +32,7 @@ async function updateAlquiler()
     cargarReservas();
 
 }
+
 function mostrarModalAlquilar(accion) {
     let modalAlquiler = document.querySelector(".modalAlquiler");
     // Obtiene los botones de aceptar y cancelar
@@ -44,20 +44,17 @@ function mostrarModalAlquilar(accion) {
             updateAlquiler();
             modalAlquiler.style.display ="none";
         }
-
         let cancelBtnAlquiler = document.querySelector(".cancel");
         cancelBtnAlquiler.onclick = function() 
         {
             modalAlquiler.style.display = "none";
-            const botonesAccion = document.querySelectorAll(".accion");
-            agregarEvento(botonesAccion);
         }
         window.onclick = function(event) 
         {
           if (event.target == modalAlquiler) {
             modalAlquiler.style.display = "none";
           }
-          const botonesAccion = document.querySelectorAll(".accion");
+          let botonesAccion = document.querySelectorAll(".accion");
           agregarEvento(botonesAccion);
         }
     }
@@ -66,7 +63,7 @@ function mostrarModalAlquilar(accion) {
 function agregarEvento(botones) {
 	botones.forEach((boton) =>
 		boton.addEventListener("click", () => {
-            const accion = boton.id;
+            let accion = boton.id;
 			switch (accion) 
             {
 				case "reservaalquilar":
