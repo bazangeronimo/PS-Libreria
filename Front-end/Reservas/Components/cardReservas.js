@@ -10,7 +10,7 @@ export const CardReservas = (isbn, titulo, autor, edicion, editorial, fecha_de_R
         <td class = "text-center">${descripcion}</td>
         <td class = "text-center">
             <div class = "boton-centro">
-            <div id="reservaalquilar" type="button" class="btn btn-success accion" onclick="javascript:window.localStorage.setItem('isbn',${isbn})" >Alquilar</div>
+            <div id="reservaalquilar" type="button" class="boton accion" onclick="javascript:window.localStorage.setItem('isbn',${isbn})" >Alquilar</div>
                 <div class="modalAlquiler">
                     <div class="modal-content">
                         <p> ¿Desea realizar el alquiler del libro "${titulo}"?<p>

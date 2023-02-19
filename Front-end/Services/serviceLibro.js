@@ -15,6 +15,7 @@ ArrayLibros.libros = async(stock, titulo, autor) => {
         console.log(error);
     }
 }
+
 export const ArrayLibro = {}
 ArrayLibro.libros = async(input) => {
     const config = {

@@ -32,47 +32,130 @@ table thead{
 }
 
 .modalAlquiler, .modalReserva {
-    display: none;
-    position: fixed;
-    z-index: 1;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    padding-left: 90px;
-    overflow: auto;
-    background-color: rgba(0,0,0,0.5);
-  }
-  
-  .modal-content {
-    background-color:#003053;
-    color: white;
-    font-size: 20px;
-    margin: 15% auto;
-    padding: 20px;
-    border: 1px solid #888;
-    border-radius: 15px;
-    width: 30%;
-  }
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  padding-left: 90px;
+  overflow: auto;
+  background-color: rgba(0,0,0,0.5);
+}
 
-  .accept, .acceptt{
-    width: 150px;
-    background-color: #007bff;
-    color: white;
-    border-radius: 9px;
-    border-style: none;
-  }
-  .accept:hover, .acceptt:hover{
-    background-color: rgb(10, 72, 138);
-  }
+.modal-content {
+  background-color:#003053;
+  color: white;
+  font-size: 20px;
+  margin: 15% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  border-radius: 15px;
+  width: 30%;
+}
+.accept, .acceptt{
+  width: 150px;
+  background-color: #007bff;
+  color: white;
+  border-radius: 9px;
+  border-style: none;
+}
+.accept:hover, .acceptt:hover{
+  background-color: rgb(10, 72, 138);
+}
+.cancel, .cancell{
+  width: 150px;
+  background-color: #ff0037;
+  color: white;
+  border-radius: 9px;
+  border-style: none;
+}
+.cancel:hover, .cancell:hover{
+  background-color: rgb(61, 4, 4);
+}
 
-  .cancel, .cancell{
-    width: 150px;
-    background-color: #ff0037;
-    color: white;
-    border-radius: 9px;
-    border-style: none;
+.boton:hover:before {
+  width: 100%;
+}
+    
+.boton {
+  color: #fff !important;
+  font-size: 12px;
+  font-weight: 1000;
+  padding: 0.25em 0.6em; 
+  background: #035e26;
+  border: 2px solid;
+  position: relative;
+  width: 120px;
+  margin: 0 auto;
+}
+.boton:before {
+  content:"";
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 0px;
+  background: rgba(255, 255, 255, 0.1);
+  transition: all 1s ease;
+} 
+.boton:hover:before {
+  height: 100%;
+}
+.go-top-container i {
+  position: absolute;
+  font-size: 1.7rem;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  transition: .2s;
+}
+.go-top-button {
+  width: 0rem;
+  height: 1rem;
+  line-height: 1rem;
+  background: #2071b2;
+  border-radius: 50%;
+  cursor: pointer;
+  position: fixed;
+  bottom: 1rem;
+  right: 1rem;
+  z-index: -1;
+  margin-bottom: 5%;
+}
+.go-top-button i {
+  position: absolute;
+  font-size: 2rem;
+  top: 48%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  transition: .2s;
+  z-index: 1;
+}
+
+.show{
+  z-index:10;
+}
+.show .go-top-button{
+  animation: popup .8s ease-in-out;
+  width: 3.6rem;
+  height: 3.6rem;
+  z-index: 11;
+}
+@keyframes popup {
+  0%{
+      width: 0rem;
+      height: 0rem;
   }
-  .cancel:hover, .cancell:hover{
-    background-color: rgb(61, 4, 4);
+  50%{
+      width: 4rem;
+      height: 4rem;
   }
+  100%{
+      width: 3.6rem;
+      height: 3.6rem;
+  }
+}

@@ -8,10 +8,9 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <title>Librería Municipal 9 de Julio</title>
     <link rel="shortcut icon" href="Utils/favicon.svg">
-    <link rel="stylesheet" href="../Inicio/Components/estiloInicio.css">
+    <link rel="stylesheet" href="/Detalle/Components/estiloDetalle.css">
     <link rel="stylesheet" href="../Inicio/Components/estiloMenu.css">
-
-    
+    <link rel="stylesheet" href="../Inicio/Components/estiloFooter.css">
 </head>
 <body>
     <div class = "contenedor">
@@ -45,13 +44,45 @@
                <a href="/inicio"><h1> Librería municipal 9 de Julio</h1></a>
                 <form action="" name="barrasDeBusqueda" >
                 <input class = "form-control" autocomplete="off" type="text" id="buscarAutorTituloIsbn" placeholder=" Libro por título, autor o ISBN...">
-                <button id="buscarBoton" type="button" class="btn btn-primary">Buscar</button>
+                <button id="buscarBoton" type="button" class="boton">Buscar</button>    
                 </form>
             </div>
             <div id="app"></div>
-            <div class = "boton-inicio"><a href="/Inicio"><button class="btn btn-primary left"> Inicio </button></a></div>
         </div>
     </div>
+    <div class="go-top-container">
+        <div class="go-top-button">
+            <i class="bi bi-chevron-compact-up"></i>
+        </div>
+    </div>
+    <footer class="pie-pagina">
+        <div class="grupo-1">
+            <div class="box">
+                <figure>
+                    <a href="https://www.9dejulio.gov.ar/">
+                        <img src="../Inicio/Utils/footer-logo.png" alt="Logo de la Municipalidad">
+                    </a>
+                </figure>
+            </div>
+            <div class="box">
+                <h2>SOBRE NOSOTROS</h2>
+                <p>La Biblioteca Popular 9 de Julio es una organización social comunitaria que ofrece espacios y servicios culturales.</p>
+            </div>
+            <div class="box">
+                <h2>CONTACTO</h2>
+                <div class="red-social">
+                    <a href="https://www.facebook.com/geronimobazann/" class="bi bi-facebook"></a>
+                    <a href="https://www.instagram.com/geronimobazan/" class="bi bi-instagram"></a>
+                    <a href="https://wa.me/5491123503172" class="bi bi-whatsapp"></a>
+                    <a href="https://github.com/gerobazan1" class="bi bi-github"></a>
+                </div>
+            </div>
+        </div>
+        <div class="grupo-2">
+            <!-- <p>2023 <b>UNAJ</b> - Todos los Derechos Reservados.</p> -->
+            <small>© 2023 | <b>Nueve de Julio</b> - Municipalidad. Todos los Derechos Reservados.</small>
+        </div>
+    </footer>
     <script type = "module" src = "../Inicio/Components/menu.js"></script>
     <script type = "module" src = "../Detalle/detalle.js"></script>
 </body>

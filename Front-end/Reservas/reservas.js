@@ -6,6 +6,21 @@ window.onload = async() => {
     agregarEvento(botonesAccion);
 }
 
+
+window.onscroll = function(){
+    if(document.documentElement.scrollTop >100){
+        document.querySelector('.go-top-container').classList.add('show');
+    }else{
+        document.querySelector('.go-top-container').classList.remove('show');
+    }
+}
+document.querySelector('.go-top-container').addEventListener('click', () =>{
+    window.scrollTo({
+        top:0,
+        behavior: 'smooth'
+    });
+});
+
 async function cargarReservas()
 {
     let libros = await ArrayReservas.reservas();
@@ -35,7 +50,6 @@ async function updateAlquiler()
 
 function mostrarModalAlquilar(accion) {
     let modalAlquiler = document.querySelector(".modalAlquiler");
-    // Obtiene los botones de aceptar y cancelar
     let acceptBtnAlquiler = document.querySelector(".accept");
     if(accion == "reservaalquilar"){
         modalAlquiler.style.display = "block";

@@ -35,69 +35,6 @@
     display: inline-block;
 }
 
-.flip-card {
-    background-color: transparent;
-    width: 260px;
-    height: 350px;
-    border: 1px solid #f1f1f1;
-    perspective: 1000px; /* Remove this if you don't want the 3D effect */
-    margin-bottom: 50px;
-    margin-right: 40px;
-}
-  
-  /* This container is needed to position the front and back side */
-  .flip-card-inner {
-    position: relative;
-    width: 100%;
-    height: 100%;
-    text-align: center;
-    transition: transform 0.8s;
-    transform-style: preserve-3d;
-  }
-
-  /* Do an horizontal flip when you move the mouse over the flip box container */
-  .flip-card:hover .flip-card-inner {
-    transform: rotateY(180deg);
-  }
-  
-  /* Position the front and back side */
-  .flip-card-front, .flip-card-back {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    -webkit-backface-visibility: hidden; /* Safari */
-    backface-visibility: hidden;
-    border-radius: 15px;
-  }
-  
-  /* Style the front side (fallback if image is missing) */
-  .flip-card-front {
-    background-color: #bbb;
-    color: black;
-  }
-  /* Style the back side */
-  .flip-card-back {
-    /* background-color: rgb(10, 26, 42); */
-    color: white;
-    transform: rotateY(180deg);
-    padding: 25px;
-    background: linear-gradient(to bottom, rgb(35, 160, 255) 2%,
-              rgb(7, 29, 63));
-  }
-
-.line{
-    width: 80%;
-    border: none;
-    border-bottom: 2px solid white;
-    margin-left: auto;
-    margin-right: auto;
-
-}
-
-.flip-card-back .link a {
-    color: #f3f3f3;
-}
-
 #app{
     padding: 20px;
 	width: 100%;
@@ -173,6 +110,54 @@ a{
     justify-content: center;
     align-items: center;
 } 
+
+.modalAlquiler, .modalReserva {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    padding-left: 90px;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.5);
+}
+  
+.modal-content {
+    background-color:#003053;
+    color: white;
+    font-size: 20px;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    border-radius: 15px;
+    width: 30%;
+}
+
+.accept, .acceptt{
+    width: 150px;
+    background-color: #007bff;
+    color: white;
+    border-radius: 9px;
+    border-style: none;
+}
+
+.accept:hover, .acceptt:hover{
+    background-color: rgb(10, 72, 138);
+}
+
+.cancel, .cancell{
+    width: 150px;
+    background-color: #ff0037;
+    color: white;
+    border-radius: 9px;
+    border-style: none;
+}
+
+.cancel:hover, .cancell:hover{
+    background-color: rgb(61, 4, 4);
+}
 
 .go-top-container i {
     position: absolute;

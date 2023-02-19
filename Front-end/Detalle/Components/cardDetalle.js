@@ -56,7 +56,7 @@ export const CardDetalle= (titulo, autor, isbn, edicion, editorial, stock, image
        </div>
        <div class = "buton-card">
            <div class = "boton-centro">
-               <div id="agotado" class="btn btn-danger accion" >Agotado</div>
+               <label id="agotado" class="item-agotado">Agotado</label>
            </div>
        </div>
    </div>
