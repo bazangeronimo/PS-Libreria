@@ -11,13 +11,15 @@
     <link rel="stylesheet" href="./Components/estiloAlquileres.css">
     <link rel="stylesheet" href="../Inicio/Components/estiloMenu.css">
     <link rel="stylesheet" href="../Inicio/Components/estiloFooter.css">
+    <link rel="stylesheet" href="../Inicio/Components/estiloBanner.css">
+
 </head>
 <body>
     <div class = "contenedor">
         <div class="menu-dashboard">
             <div class="top-menu">
                 <div class="usuario">
-                    <img src="../Utils/usuario.jpg" alt="">
+                    <img src="/Inicio/Utils/usuario.jpg" alt="">
                     <span>Bazan</span>
                 </div>
                 <div class="toggle">
@@ -41,8 +43,10 @@
         </div>
         <div class = "container-fluid">
             <div class = "nombre">
-                <div class="title">
-                    <a href="/inicio"><h1> Librería municipal 9 de Julio</h1></a>
+                <div class = "title">
+                    <div class="portada">
+                        <a href="/inicio" class="titulo-portada"><h1> <STRONG>LIBRERÍA MUNICIPAL</STRONG></h1><br><h3>9 de Julio</h3></a>
+                    </div>
                 </div>
             </div>
             <div class = "alquileres">
@@ -70,22 +74,20 @@
             <i class="bi bi-chevron-compact-up"></i>
         </div>
     </div>
-    <footer class="pie-pagina">
-        <div class="grupo-1">
-            <div class="box">
-                <figure>
-                    <a href="https://www.9dejulio.gov.ar/">
-                        <img src="../Inicio/Utils/footer-logo.png" alt="Logo de la Municipalidad">
-                    </a>
-                </figure>
+    <footer class="div-footer">
+        <div class="div-informacion">
+            <div class="divisor">
+                <a href="https://www.9dejulio.gov.ar/">
+                    <img src="../Inicio/Utils/footer-logo.png" alt="Logo de la Municipalidad">
+                </a>
             </div>
-            <div class="box">
+            <div class="divisor">
                 <h2>SOBRE NOSOTROS</h2>
                 <p>La Biblioteca Popular 9 de Julio es una organización social comunitaria que ofrece espacios y servicios culturales.</p>
             </div>
-            <div class="box">
+            <div class="divisor">
                 <h2>CONTACTO</h2>
-                <div class="red-social">
+                <div class="contacto">
                     <a href="https://www.facebook.com/geronimobazann/" class="bi bi-facebook"></a>
                     <a href="https://www.instagram.com/geronimobazan/" class="bi bi-instagram"></a>
                     <a href="https://wa.me/5491123503172" class="bi bi-whatsapp"></a>
@@ -93,8 +95,7 @@
                 </div>
             </div>
         </div>
-        <div class="grupo-2">
-            <!-- <p>2023 <b>UNAJ</b> - Todos los Derechos Reservados.</p> -->
+        <div class="div-derechos">
             <small>© 2023 | <b>Nueve de Julio</b> - Municipalidad. Todos los Derechos Reservados.</small>
         </div>
     </footer>

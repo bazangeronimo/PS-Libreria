@@ -24,7 +24,6 @@ document.querySelector('.go-top-container').addEventListener('click', () =>{
 async function cargarReservas()
 {
     let libros = await ArrayReservas.reservas();
-    console.log(libros)
     if(Array.isArray(libros.message))
     {
         let inicio = libros.message.map(reserva => CardReservas(reserva.isbn, reserva.titulo, reserva.autor, reserva.edicion, 

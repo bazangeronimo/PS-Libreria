@@ -62,8 +62,15 @@ async function crearReserva()
 async function buscarLibros(input)
 {
     let buscar = await ArrayLibro.libros(input);
-    let imprimir = buscar.libros.map(libro => CardStock(libro.titulo, libro.autor, libro.isbn, libro.edicion, libro.stock, libro.imagen)).join("");
-    document.getElementById("app").innerHTML = imprimir; 
+    if(Array.isArray(buscar.libros))
+    {
+        let imprimir = buscar.libros.map(libro => CardStock(libro.titulo, libro.autor, libro.isbn, libro.edicion, libro.stock, libro.imagen)).join("");
+        document.getElementById("app").innerHTML = imprimir;
+    }
+    else{
+        let vacio = "<span class='span'>No se han encontrado libros!</span>" 
+        document.getElementById("app").innerHTML = vacio;
+    }  
 }
 
 async function actualizarDatos() {

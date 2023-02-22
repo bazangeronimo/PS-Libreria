@@ -1,58 +1,31 @@
-.pie-pagina{
+.div-footer{
     width: 100%;
-    background-color: #0a141d;
+    background-color: #0d1f2f;
 }
-.pie-pagina .grupo-1{
+.div-footer .div-informacion{
     width: 100%;
-    max-width: 1200px;
+    max-width: 1000px;
     margin: auto;
     display:grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-gap:50px;
-    padding: 5px;
+    grid-gap:40px;
+    padding: 10px;
 }
-/* logo unaj */
-.pie-pagina .grupo-1 .box figure{
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.pie-pagina .grupo-1 .box figure img{
-    width: 250px;
-}
-.pie-pagina .grupo-1 .box h2{
+.div-footer .div-informacion .divisor h2{
     color: #fff;
     margin-bottom: 10px;
     font-size: 20px;
 }
-
-/* texto de las box */
-.pie-pagina .grupo-1 .box p{
-    color: #efefef;
-    margin-bottom: 10px;
-}
-
-.pie-pagina .grupo-1 .red-social a{
+.div-footer .div-informacion .contacto a{
     display: inline-block;
-    text-decoration: none;
-    width: 45px;
-    height: 45px;
-    line-height: 45px;
+    width: 40px;
+    height: 40px;
     color: #fff;
     margin-right: 10px;
-    background-color: #0d2033;
-    text-align: center;
-    transition: all 300ms ease;
 }
 
-.pie-pagina .grupo-1 .red-social a:hover{
-    color: aqua;
-}
-
-.pie-pagina .grupo-2{
-    background-color: #0a1a2a;
+.div-footer .div-derechos{
+    background-color: #0d1824;
     padding: 5px;
     text-align: center;
     color: #fff;

@@ -1,0 +1,25 @@
+.nombre a{
+    text-decoration: none;
+    color:  #003053;
+}
+
+.nombre .titulo-portada{
+    padding: 10px;
+    text-decoration: none;
+    color:  rgb(245, 245, 245);
+    font-family: 'Teko', sans-serif;
+}
+
+.nombre .title{
+    background-image: url(https://i.postimg.cc/k47Lsf3B/fondo-jpg-Mesa-de-trabajo-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 30px;
+}
+
+.nombre .portada{
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.1),rgba(0, 0, 0, 0.6)50%, rgba(0, 0, 0, 0.1));
+    margin: 0 500px;
+    line-height: 8px;
+    text-align: center;
+}

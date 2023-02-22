@@ -13,8 +13,11 @@ export const CardStock = (titulo, autor, isbn, edicion, stock, imagen) => {
                     <p class = "titulo"> Autor: ${autor} </p>
                     <p class = "texto"> ISBN: ${isbn} </p>
                     <p class = "texto"> Edición: ${edicion} </p>
-                    <hr class="line">
-                    <div class="link"><a href="/libro/${isbn}" id ="asd"  onclick="javascript:window.location.pathname='/libro/${isbn}">Details</a></div>
+                    <div class="contenedor-detalles">
+                        <img class="logo" width=90px src = "../Inicio/Utils/logo-biblioteca.png">
+                        <hr class="line-bottom">
+                        <div class="link"><a href="/libro/${isbn}" id ="asd"  onclick="javascript:window.location.pathname='/libro/${isbn}"><strong>DETALLES</strong></a></div>
+                    </div>
                 </div>
             </div>
         </div>

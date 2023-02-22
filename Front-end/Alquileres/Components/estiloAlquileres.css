@@ -1,17 +1,35 @@
 .contenedor{
     display: flex;
 }
-
-.nombre
-{
+.nombre a{
+    text-decoration: none;
+    color:  #003053;
+  }
+  
+  .nombre .titulo-portada{
+    padding: 10px;
+    text-decoration: none;
+    color:  rgb(245, 245, 245);
+    font-family: 'Teko', sans-serif;
+  }
+  
+  .nombre .title{
+    background-image: url(https://i.postimg.cc/k47Lsf3B/fondo-jpg-Mesa-de-trabajo-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 10px;
+  }
+  
+  .nombre
+  {
     width: 100%;
     text-align: center;
     background-color: white;
-}
-
-.nombre .title{
-    padding: 40px;
-}
+  }
+  
+  .busqueda{
+    margin-top: 2%;
+  }
 
 a{
 	text-decoration: none;

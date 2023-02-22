@@ -18,7 +18,7 @@ export const CardDetalle= (titulo, autor, isbn, edicion, editorial, stock, image
         </div>
         <div class = "buton-card">
             <div class = "boton-centro">
-                <div id="alquilar" type="button" class="btn btn-success accion" >Alquilar</div>
+                <div id="alquilar" type="button" class="boton-detalle accion" >Alquilar</div>
                 <div class="modalAlquiler">
                   <div class="modal-content">
                     <p> ¿Desea alquilar el libro "${titulo}"?<p>
@@ -26,7 +26,7 @@ export const CardDetalle= (titulo, autor, isbn, edicion, editorial, stock, image
                     <button class="cancel">Cancelar</button>
                   </div>
                 </div>
-                <div id="reservar" type="button" class="btn btn-success accion" >Reservar</div>
+                <div id="reservar" type="button" class="boton-detalle accion" >Reservar</div>
                 <div class="modalReserva">
                   <div class="modal-content">
                     <p> ¿Desea reservar el libro "${titulo}"?<p>

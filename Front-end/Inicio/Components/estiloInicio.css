@@ -1,11 +1,19 @@
 .nombre a{
-    padding: 10px;
     text-decoration: none;
     color:  #003053;
 }
 
+.nombre .titulo-portada{
+    padding: 10px;
+    text-decoration: none;
+    color:  rgb(245, 245, 245);
+    font-family: 'Teko', sans-serif;
+}
+
 .nombre .title{
-    padding: 30px;
+    background-image: url(https://i.postimg.cc/k47Lsf3B/fondo-jpg-Mesa-de-trabajo-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .nombre
@@ -13,6 +21,10 @@
     width: 100%;
     text-align: center;
     background-color: white;
+}
+
+.busqueda{
+    margin-top: 2%;
 }
 
 .buscar{
@@ -39,13 +51,11 @@
     background-color: transparent;
     width: 260px;
     height: 350px;
-    border: 1px solid #f1f1f1;
-    perspective: 1000px; /* Remove this if you don't want the 3D effect */
+    perspective: 1000px; 
     margin-bottom: 50px;
     margin-right: 40px;
 }
   
-  /* This container is needed to position the front and back side */
   .flip-card-inner {
     position: relative;
     width: 100%;
@@ -55,70 +65,88 @@
     transform-style: preserve-3d;
   }
 
-  /* Do an horizontal flip when you move the mouse over the flip box container */
   .flip-card:hover .flip-card-inner {
     transform: rotateY(180deg);
   }
   
-  /* Position the front and back side */
   .flip-card-front, .flip-card-back {
     position: absolute;
     width: 100%;
     height: 100%;
-    -webkit-backface-visibility: hidden; /* Safari */
+    -webkit-backface-visibility: hidden; 
     backface-visibility: hidden;
     border-radius: 15px;
   }
   
-  /* Style the front side (fallback if image is missing) */
   .flip-card-front {
     background-color: #bbb;
     color: black;
   }
-  /* Style the back side */
   .flip-card-back {
-    /* background-color: rgb(10, 26, 42); */
     color: white;
     transform: rotateY(180deg);
     padding: 25px;
     background: linear-gradient(to bottom, rgb(35, 160, 255) 2%,
               rgb(7, 29, 63));
   }
-
-.line{
+.contenedor-detalles {
+    bottom: 0;
+    height: 10px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .line-bottom {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translateX(-50%);
     width: 80%;
     border: none;
     border-bottom: 2px solid white;
-    margin-left: auto;
-    margin-right: auto;
-
-}
-
-.flip-card-back .link a {
+    padding-bottom: 15px;
+  }
+  .link{
+    position: absolute;
+    align-items: center;
+    bottom: 7px;
+  }
+  .logo{
+    position: absolute;
+    align-items: center;
+    bottom: 50px;
+  }
+  .flip-card-back .link a {
     color: #f3f3f3;
 }
-
+  .flip-card-back .line-top{
+    bottom: 0;
+    left: 50%;
+    align-items: center;
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid white;
+  }
 #app{
     padding: 20px;
 	width: 100%;
 	flex-wrap: wrap;
 	display: flex;
     justify-content: space-around;
+    margin-top: 20px;
 }
-
 a{
 	text-decoration: none;
 	color: white;
 }
-
 .contenedor{
     display: flex;
 }
-
 .cardDetalle {
     display: flex;
     flex-direction: column;
-    width: 700px;
+    width: 750px;
     height: auto;
     margin-right: 20px;
 	margin-bottom: 50px;
@@ -173,6 +201,71 @@ a{
     justify-content: center;
     align-items: center;
 } 
+
+.modalAlquiler, .modalReserva {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    padding-left: 90px;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.5);
+}
+  
+.modal-content {
+    background-color:#003053;
+    color: white;
+    font-size: 20px;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    border-radius: 15px;
+    width: 30%;
+}
+
+.accept, .acceptt{
+    width: 150px;
+    background-color: #007bff;
+    color: white;
+    border-radius: 9px;
+    border-style: none;
+}
+
+.accept:hover, .acceptt:hover{
+    background-color: rgb(10, 72, 138);
+}
+
+.cancel, .cancell{
+    width: 150px;
+    background-color: #ff0037;
+    color: white;
+    border-radius: 9px;
+    border-style: none;
+}
+
+.cancel:hover, .cancell:hover{
+    background-color: rgb(61, 4, 4);
+}
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+.footer-links {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-links a {
+    color: #fff;
+    text-decoration: none;
+}
 
 .go-top-container i {
     position: absolute;
@@ -239,7 +332,7 @@ a{
     font-weight: 1000;
     border-radius: 5px;
     padding: 0.35em 0.6em; 
-    background: #063665;;
+    background: #097ad7;;;
     border: 2px solid;
     position: relative;
     width: 80px;
@@ -252,7 +345,7 @@ a{
     left: 0px;
     width: 0px;
     height: 100%;
-    background: rgba(255, 255, 255, 0.1);
+    background: rgba(21, 80, 122, 0.401);
     transition: all 1s ease;
 }
 .boton:hover:before {
@@ -275,3 +368,34 @@ a{
     color: black;
     display: block;
 }
+#alquilar, #reservar{
+    display: inline;
+}
+.boton-detalle:before {
+    width: 100%;
+  }
+      
+  .boton-detalle {
+    color: #fff !important;
+    font-size: 14px;
+    font-weight: 1000;
+    padding: 0.25em 0.6em; 
+    background: #035e26;
+    position: relative;
+    width: 120px;
+    height: 30px;
+    margin: 0 auto;
+  }
+  .boton-detalle:before {
+    content:"";
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 0px;
+    background: rgba(255, 255, 255, 0.1);
+    transition: all 1s ease;
+  } 
+  .boton-detalle:hover:before {
+    height: 100%;
+  }

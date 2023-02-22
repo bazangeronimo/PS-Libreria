@@ -2,6 +2,30 @@
   display: flex;
 }
 
+.nombre a{
+  text-decoration: none;
+  color:  #003053;
+}
+
+.nombre .titulo-portada{
+  padding: 10px;
+  text-decoration: none;
+  color:  rgb(245, 245, 245);
+  font-family: 'Teko', sans-serif;
+}
+
+.nombre .title{
+  background-image: url(https://i.postimg.cc/k47Lsf3B/fondo-jpg-Mesa-de-trabajo-1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.nombre
+{
+  width: 100%;
+  text-align: center;
+  background-color: white;
+}
 .nombre
 {
   width: 100%;
@@ -9,9 +33,10 @@
   background-color: white;
 }
 
-.nombre .title{
-  padding: 40px;
+.busqueda{
+  margin-top: 2%;
 }
+
 
 a{
 text-decoration: none;
@@ -25,10 +50,6 @@ color: white;
 table thead{
 	background-color: #003053;
 	color: white;
-}
-.container-fluid a{
-    text-decoration: none;
-    color:  #003053;
 }
 
 .modalAlquiler, .modalReserva {
@@ -85,7 +106,6 @@ table thead{
   font-weight: 1000;
   padding: 0.25em 0.6em; 
   background: #035e26;
-  border: 2px solid;
   position: relative;
   width: 120px;
   margin: 0 auto;
