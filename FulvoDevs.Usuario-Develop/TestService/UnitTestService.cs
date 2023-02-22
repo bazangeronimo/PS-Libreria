@@ -27,7 +27,7 @@ using Moq;
             _jwtAuthManager = new Mock<JwtAuthManager>("qYSfppVPCw0X0MEbWUOtnDneqD22p6j1qUuL0WHMVPI"); 
         }
 
-        //(user),search,work,description,expected
+        //(user),search,retorno,description,expected
         [TestCase("1", true, true, "Descripcion corta", true)]
         [TestCase("1", false, true, "Descripcion corta", false)]
         [TestCase("1", true, false, "Descripcion corta", false)]

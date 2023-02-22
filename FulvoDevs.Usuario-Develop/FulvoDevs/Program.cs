@@ -29,7 +29,7 @@ builder.Services.AddSwaggerGen(options =>
 });
 
 
-var key = "83kZz7QOdv9Sj3SqT1gS0sjTPqmGDqo8XVXzNDLL";
+var key = "qYSfppVPCw0X0MEbWUOtnDneqD22p6j1qUuL0WHMVPI";
 builder.Services.AddAuthentication(x =>
 {
     x.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
